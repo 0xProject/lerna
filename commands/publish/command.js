@@ -38,7 +38,7 @@ exports.builder = yargs => {
       },
     },
     "cd-versions": {
-      describe: `Skip the version selection prompt and increment multiple package semvers: ${cdVersionOptionString}`,
+      describe: `Supply multiple package semvers: ${cdVersionOptionString}`,
       type: "string",
       requiresArg: true,
       coerce: choice => {
