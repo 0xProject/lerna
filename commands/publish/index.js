@@ -317,9 +317,11 @@ class PublishCommand extends Command {
       for (const packageWithVersion of packagesWithVersions) {
         const parts = packageWithVersion.split("@");
         const version = parts[parts.length - 1];
-        console.log('version', version);
-        const pkgName = parts.slice(0, parts.length - 1).join('@');
-        console.log('pkgName', pkgName);
+        // eslint:disable-next-line:no-console
+        console.log("version", version);
+        const pkgName = parts.slice(0, parts.length - 1).join("@");
+        // eslint:disable-next-line:no-console
+        console.log("pkgName", pkgName);
         pkgNameToVersion.set(pkgName, version);
       }
       // Check that all necessary versions were passed in
