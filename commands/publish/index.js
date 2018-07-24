@@ -315,7 +315,11 @@ class PublishCommand extends Command {
       const packagesWithVersions = cdVersions.split(",");
       const pkgNameToVersion = new Map();
       for (const packageWithVersion of packagesWithVersions) {
-        const [pkgName, version] = packageWithVersion.split("@");
+        const parts = packageWithVersion.split("@");
+        const version = parts[parts.length - 1];
+        console.log('version', version);
+        const pkgName = parts.slice(0, parts.length - 1).join('@');
+        console.log('pkgName', pkgName);
         pkgNameToVersion.set(pkgName, version);
       }
       // Check that all necessary versions were passed in
