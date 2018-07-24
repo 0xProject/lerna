@@ -6,7 +6,7 @@
   ],
   "command": {
     "create": {
-      "homepage": "https://github.com/lerna/lerna",
+      "homepage": "https://github.com/0xproject/lerna",
       "license": "MIT"
     },
     "publish": {
