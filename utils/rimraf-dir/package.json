@@ -1,6 +1,6 @@
 {
   "name": "@0x-lerna-fork/rimraf-dir",
-  "version": "3.0.0-beta.21",
+  "version": "3.0.0-beta.22",
   "description": "Run rimraf on a directory in a subprocess to hack around slowness",
   "keywords": [
     "lerna",

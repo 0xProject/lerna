@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+<a name="3.0.0-beta.22"></a>
+# [3.0.0-beta.22](https://github.com/lerna/lerna/compare/v3.0.0-beta.21...v3.0.0-beta.22) (2018-07-24)
+
+
+### Features
+
+* **publish:** Add cdVersions flag ([1982ff1](https://github.com/lerna/lerna/commit/1982ff1))
+
+
+
+
+
 <a name="3.0.0-beta.21"></a>
 # [3.0.0-beta.21](https://github.com/lerna/lerna/compare/v3.0.0-beta.20...v3.0.0-beta.21) (2018-05-12)
 

@@ -1,6 +1,6 @@
 {
   "name": "@0x-lerna-fork/run",
-  "version": "3.0.0-beta.21",
+  "version": "3.0.0-beta.22",
   "description": "TODO",
   "keywords": [
     "lerna",
@@ -40,7 +40,7 @@
     "@0x-lerna-fork/npm-run-script": "file:../../utils/npm-run-script",
     "@0x-lerna-fork/output": "file:../../utils/output",
     "@0x-lerna-fork/run-parallel-batches": "file:../../utils/run-parallel-batches",
-    "@0x-lerna-fork/validation-error": "^3.0.0-beta.10",
+    "@0x-lerna-fork/validation-error": "^3.0.0-beta.22",
     "p-map": "^1.2.0"
   }
 }
