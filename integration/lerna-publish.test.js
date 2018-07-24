@@ -10,19 +10,19 @@ const path = require("path");
 const os = require("os");
 const tempy = require("tempy");
 
-const cliRunner = require("@lerna-test/cli-runner");
-const gitAdd = require("@lerna-test/git-add");
-const gitCommit = require("@lerna-test/git-commit");
-const gitTag = require("@lerna-test/git-tag");
-const showCommit = require("@lerna-test/show-commit");
-const cloneFixture = require("@lerna-test/clone-fixture")(
+const cliRunner = require("@0x-lerna-fork/cli-runner");
+const gitAdd = require("@0x-lerna-fork/git-add");
+const gitCommit = require("@0x-lerna-fork/git-commit");
+const gitTag = require("@0x-lerna-fork/git-tag");
+const showCommit = require("@0x-lerna-fork/show-commit");
+const cloneFixture = require("@0x-lerna-fork/clone-fixture")(
   path.resolve(__dirname, "../commands/publish/__tests__")
 );
-const loadManifests = require("@lerna-test/load-manifests");
-const normalizeTestRoot = require("@lerna-test/normalize-test-root");
+const loadManifests = require("@0x-lerna-fork/load-manifests");
+const normalizeTestRoot = require("@0x-lerna-fork/normalize-test-root");
 
 // stabilize changelog commit SHA and datestamp
-expect.addSnapshotSerializer(require("@lerna-test/serialize-changelog"));
+expect.addSnapshotSerializer(require("@0x-lerna-fork/serialize-changelog"));
 
 const lastCommitMessage = cwd =>
   execa.stdout("git", ["log", "-1", "--format=%B"], { cwd }).then(normalizeNewline);

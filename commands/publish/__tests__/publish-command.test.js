@@ -28,17 +28,17 @@ const gitPush = require("../lib/git-push");
 const isBehindUpstream = require("../lib/is-behind-upstream");
 
 // helpers
-const consoleOutput = require("@lerna-test/console-output");
-const loggingOutput = require("@lerna-test/logging-output");
-const gitAdd = require("@lerna-test/git-add");
-const gitTag = require("@lerna-test/git-tag");
-const gitCommit = require("@lerna-test/git-commit");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const normalizeRelativeDir = require("@lerna-test/normalize-relative-dir");
-const showCommit = require("@lerna-test/show-commit");
+const consoleOutput = require("@0x-lerna-fork/console-output");
+const loggingOutput = require("@0x-lerna-fork/logging-output");
+const gitAdd = require("@0x-lerna-fork/git-add");
+const gitTag = require("@0x-lerna-fork/git-tag");
+const gitCommit = require("@0x-lerna-fork/git-commit");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const normalizeRelativeDir = require("@0x-lerna-fork/normalize-relative-dir");
+const showCommit = require("@0x-lerna-fork/show-commit");
 
 // file under test
-const lernaPublish = require("@lerna-test/command-runner")(require("../command"));
+const lernaPublish = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 const collectUpdatesActual = require.requireActual("@0x-lerna-fork/collect-updates");
 // assertion helpers
@@ -68,7 +68,7 @@ const updatedPackageVersions = () => {
 const updatedPackageJSON = name => writePkg.registry.get(name);
 
 // stabilize commit SHA
-expect.addSnapshotSerializer(require("@lerna-test/serialize-git-sha"));
+expect.addSnapshotSerializer(require("@0x-lerna-fork/serialize-git-sha"));
 
 describe("PublishCommand", () => {
   // we've already tested these utilities elsewhere

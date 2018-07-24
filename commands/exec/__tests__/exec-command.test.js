@@ -7,15 +7,15 @@ const path = require("path");
 const ChildProcessUtilities = require("@0x-lerna-fork/child-process");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const gitAdd = require("@lerna-test/git-add");
-const gitCommit = require("@lerna-test/git-commit");
-const gitTag = require("@lerna-test/git-tag");
-const loggingOutput = require("@lerna-test/logging-output");
-const normalizeRelativeDir = require("@lerna-test/normalize-relative-dir");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const gitAdd = require("@0x-lerna-fork/git-add");
+const gitCommit = require("@0x-lerna-fork/git-commit");
+const gitTag = require("@0x-lerna-fork/git-tag");
+const loggingOutput = require("@0x-lerna-fork/logging-output");
+const normalizeRelativeDir = require("@0x-lerna-fork/normalize-relative-dir");
 
 // file under test
-const lernaExec = require("@lerna-test/command-runner")(require("../command"));
+const lernaExec = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 // assertion helpers
 const calledInPackages = () =>

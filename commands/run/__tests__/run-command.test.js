@@ -10,15 +10,15 @@ const path = require("path");
 const npmRunScript = require("@0x-lerna-fork/npm-run-script");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const consoleOutput = require("@lerna-test/console-output");
-const loggingOutput = require("@lerna-test/logging-output");
-const gitAdd = require("@lerna-test/git-add");
-const gitCommit = require("@lerna-test/git-commit");
-const normalizeRelativeDir = require("@lerna-test/normalize-relative-dir");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const consoleOutput = require("@0x-lerna-fork/console-output");
+const loggingOutput = require("@0x-lerna-fork/logging-output");
+const gitAdd = require("@0x-lerna-fork/git-add");
+const gitCommit = require("@0x-lerna-fork/git-commit");
+const normalizeRelativeDir = require("@0x-lerna-fork/normalize-relative-dir");
 
 // file under test
-const lernaRun = require("@lerna-test/command-runner")(require("../command"));
+const lernaRun = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 // assertion helpers
 const ranInPackagesStreaming = testDir =>

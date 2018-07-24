@@ -6,8 +6,8 @@ const readPkg = require("read-pkg");
 const Package = require("@0x-lerna-fork/package");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const pkgMatchers = require("@lerna-test/pkg-matchers");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const pkgMatchers = require("@0x-lerna-fork/pkg-matchers");
 
 // file under test
 const symlinkBinary = require("..");

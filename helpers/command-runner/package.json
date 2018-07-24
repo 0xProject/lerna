@@ -1,5 +1,5 @@
 {
-  "name": "@lerna-test/command-runner",
+  "name": "@0x-lerna-fork/command-runner",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",

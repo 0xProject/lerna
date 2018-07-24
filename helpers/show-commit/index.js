@@ -1,7 +1,7 @@
 "use strict";
 
 const execa = require("execa");
-const gitSHA = require("@lerna-test/serialize-git-sha");
+const gitSHA = require("@0x-lerna-fork/serialize-git-sha");
 
 module.exports = showCommit;
 

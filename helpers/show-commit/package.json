@@ -1,12 +1,12 @@
 {
-  "name": "@lerna-test/show-commit",
+  "name": "@0x-lerna-fork/show-commit",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "@lerna-test/serialize-git-sha": "file:../serialize-git-sha",
+    "@0x-lerna-fork/serialize-git-sha": "file:../serialize-git-sha",
     "execa": "^0.10.0"
   }
 }

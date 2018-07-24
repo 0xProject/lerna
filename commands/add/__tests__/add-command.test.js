@@ -9,11 +9,11 @@ const path = require("path");
 const bootstrap = require("@0x-lerna-fork/bootstrap");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const pkgMatchers = require("@lerna-test/pkg-matchers");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const pkgMatchers = require("@0x-lerna-fork/pkg-matchers");
 
 // file under test
-const lernaAdd = require("@lerna-test/command-runner")(require("../command"));
+const lernaAdd = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 // assertion helpers
 expect.extend(pkgMatchers);

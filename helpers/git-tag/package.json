@@ -1,5 +1,5 @@
 {
-  "name": "@lerna-test/git-tag",
+  "name": "@0x-lerna-fork/git-tag",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",

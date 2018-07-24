@@ -1,7 +1,7 @@
 "use strict";
 
 const execa = require("execa");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
 const gitTag = require("../lib/git-tag");
 
 test("gitTag", async () => {

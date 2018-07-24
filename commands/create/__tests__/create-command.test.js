@@ -11,14 +11,14 @@ const slash = require("slash");
 const getLatestVersion = require("../lib/get-latest-version");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const gitAdd = require("@lerna-test/git-add");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const gitAdd = require("@0x-lerna-fork/git-add");
 
 // file under test
-const lernaCreate = require("@lerna-test/command-runner")(require("../command"));
+const lernaCreate = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 // stabilize commit SHA
-expect.addSnapshotSerializer(require("@lerna-test/serialize-git-sha"));
+expect.addSnapshotSerializer(require("@0x-lerna-fork/serialize-git-sha"));
 
 // assertion helpers
 const addRemote = (cwd, remote = "origin", url = "git@github.com:test/test.git") =>
@@ -46,7 +46,7 @@ const manifestCreated = async cwd => {
 describe("CreateCommand", () => {
   getLatestVersion.mockReturnValue("1.0.0-mocked");
 
-  // preserve value from @lerna-test/set-npm-userconfig
+  // preserve value from @0x-lerna-fork/set-npm-userconfig
   const userconfig = process.env.npm_config_userconfig;
 
   afterEach(() => {

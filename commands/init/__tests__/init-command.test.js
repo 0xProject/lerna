@@ -5,10 +5,10 @@ const path = require("path");
 const tempy = require("tempy");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
 
 // file under test
-const lernaInit = require("@lerna-test/command-runner")(require("../command"));
+const lernaInit = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 describe("InitCommand", () => {
   const lernaVersion = "__TEST_VERSION__";

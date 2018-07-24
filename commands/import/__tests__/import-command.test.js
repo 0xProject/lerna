@@ -11,13 +11,13 @@ const pathExists = require("path-exists");
 const PromptUtilities = require("@0x-lerna-fork/prompt");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const gitAdd = require("@lerna-test/git-add");
-const gitCommit = require("@lerna-test/git-commit");
-const updateLernaConfig = require("@lerna-test/update-lerna-config");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const gitAdd = require("@0x-lerna-fork/git-add");
+const gitCommit = require("@0x-lerna-fork/git-commit");
+const updateLernaConfig = require("@0x-lerna-fork/update-lerna-config");
 
 // file under test
-const lernaImport = require("@lerna-test/command-runner")(require("../command"));
+const lernaImport = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 // assertion helpers
 const lastCommitInDir = cwd => execa.stdout("git", ["log", "-1", "--format=%s"], { cwd });

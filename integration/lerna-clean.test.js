@@ -2,9 +2,9 @@
 
 const globby = require("globby");
 
-const cliRunner = require("@lerna-test/cli-runner");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const normalizeTestRoot = require("@lerna-test/normalize-test-root");
+const cliRunner = require("@0x-lerna-fork/cli-runner");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const normalizeTestRoot = require("@0x-lerna-fork/normalize-test-root");
 
 describe("lerna clean", () => {
   test("global", async () => {

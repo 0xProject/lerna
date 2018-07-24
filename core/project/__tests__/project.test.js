@@ -4,7 +4,7 @@ const fs = require("fs-extra");
 const path = require("path");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
 
 // file under test
 const Project = require("..");

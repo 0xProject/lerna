@@ -1,11 +1,11 @@
 "use strict";
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const consoleOutput = require("@lerna-test/console-output");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const consoleOutput = require("@0x-lerna-fork/console-output");
 
 // file under test
-const lernaLs = require("@lerna-test/command-runner")(require("../command"));
+const lernaLs = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 describe("LsCommand", () => {
   describe("in a basic repo", () => {

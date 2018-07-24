@@ -4,7 +4,7 @@ const execa = require("execa");
 const fs = require("fs-extra");
 const { EOL } = require("os");
 const path = require("path");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
 const gitCommit = require("../lib/git-commit");
 
 test("commit message", async () => {

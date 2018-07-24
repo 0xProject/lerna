@@ -4,9 +4,9 @@ module.exports = {
   bail: true,
   modulePathIgnorePatterns: ["/__fixtures__/"],
   roots: ["<rootDir>/integration"],
-  setupFiles: ["@lerna-test/set-npm-userconfig"],
+  setupFiles: ["@0x-lerna-fork/set-npm-userconfig"],
   setupTestFrameworkScriptFile: "<rootDir>/setup-integration-timeout.js",
-  snapshotSerializers: ["@lerna-test/serialize-placeholders"],
+  snapshotSerializers: ["@0x-lerna-fork/serialize-placeholders"],
   testEnvironment: "node",
   verbose: true,
 };

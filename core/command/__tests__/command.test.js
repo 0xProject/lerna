@@ -13,12 +13,12 @@ const touch = require("touch");
 const ChildProcessUtilities = require("@0x-lerna-fork/child-process");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const loggingOutput = require("@lerna-test/logging-output");
-const gitAdd = require("@lerna-test/git-add");
-const gitCommit = require("@lerna-test/git-commit");
-const gitTag = require("@lerna-test/git-tag");
-const updateLernaConfig = require("@lerna-test/update-lerna-config");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const loggingOutput = require("@0x-lerna-fork/logging-output");
+const gitAdd = require("@0x-lerna-fork/git-add");
+const gitCommit = require("@0x-lerna-fork/git-commit");
+const gitTag = require("@0x-lerna-fork/git-tag");
+const updateLernaConfig = require("@0x-lerna-fork/update-lerna-config");
 
 // file under test
 const Command = require("..");

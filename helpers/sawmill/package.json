@@ -1,5 +1,5 @@
 {
-  "name": "@lerna-test/sawmill",
+  "name": "@0x-lerna-fork/sawmill",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",

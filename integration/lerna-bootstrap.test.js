@@ -5,11 +5,11 @@ const globby = require("globby");
 const normalizePath = require("normalize-path");
 const path = require("path");
 
-const cloneFixture = require("@lerna-test/clone-fixture")(
+const cloneFixture = require("@0x-lerna-fork/clone-fixture")(
   path.resolve(__dirname, "../commands/bootstrap/__tests__")
 );
-const cliRunner = require("@lerna-test/cli-runner");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const cliRunner = require("@0x-lerna-fork/cli-runner");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
 
 describe("lerna bootstrap", () => {
   test("bootstraps all packages", async () => {
