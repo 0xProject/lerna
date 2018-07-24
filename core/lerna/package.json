@@ -20,7 +20,8 @@
     "cli.js"
   ],
   "publishConfig": {
-    "tag": "next"
+    "tag": "next",
+    "access": "public"
   },
   "engines": {
     "node": ">= 6.9.0"
