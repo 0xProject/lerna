@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lerna/lerna.git"
+    "url": "git+https://github.com/0xproject/lerna.git"
   },
   "scripts": {
     "test": "echo \"Run tests from root\" && exit 1"
