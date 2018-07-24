@@ -304,7 +304,7 @@ class PublishCommand extends Command {
   }
 
   getVersionsForUpdates() {
-    const { canary, cdVersion, conventionalCommits, preid, repoVersion } = this.options;
+    const { canary, cdVersion, cdVersions, conventionalCommits, preid, repoVersion } = this.options;
 
     const makeGlobalVersionPredicate = nextVersion => {
       this.globalVersion = nextVersion;
@@ -329,6 +329,29 @@ class PublishCommand extends Command {
     } else if (conventionalCommits) {
       // it's a bit weird to have a return here, true
       return this.recommendVersions();
+    } else if (cdVersions) {
+      const packagesWithVersions = cdVersions.split(",");
+      const pkgNameToVersion = new Map();
+      for (const packageWithVersion of packagesWithVersions) {
+        const parts = packageWithVersion.split("@");
+        const version = parts[parts.length - 1];
+        // eslint:disable-next-line:no-console
+        console.log("version", version);
+        const pkgName = parts.slice(0, parts.length - 1).join("@");
+        // eslint:disable-next-line:no-console
+        console.log("pkgName", pkgName);
+        pkgNameToVersion.set(pkgName, version);
+      }
+      // Check that all necessary versions were passed in
+      for (const { pkg } of this.updates) {
+        const versionIfExists = pkgNameToVersion.get(pkg.name);
+        if (versionIfExists === undefined) {
+          throw new Error(
+            `Specified --cdVersions flag without all updated package versions specified. Missing: ${pkg.name}`
+          );
+        }
+      }
+      return pkgNameToVersion;
     } else {
       predicate = this.promptVersion;
     }
