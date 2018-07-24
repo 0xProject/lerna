@@ -1,5 +1,5 @@
 {
-  "name": "lerna",
+  "name": "@0x-lerna-fork/lerna",
   "version": "3.0.0-beta.22",
   "description": "A tool for managing JavaScript projects with multiple packages.",
   "keywords": [
