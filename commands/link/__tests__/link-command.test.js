@@ -1,9 +1,9 @@
 "use strict";
 
-jest.mock("@lerna/create-symlink");
+jest.mock("@0x-lerna-fork/create-symlink");
 
 // mocked or stubbed modules
-const createSymlink = require("@lerna/create-symlink");
+const createSymlink = require("@0x-lerna-fork/create-symlink");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(__dirname);

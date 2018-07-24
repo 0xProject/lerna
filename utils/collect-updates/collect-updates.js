@@ -1,6 +1,6 @@
 "use strict";
 
-const childProcess = require("@lerna/child-process");
+const childProcess = require("@0x-lerna-fork/child-process");
 const semver = require("semver");
 
 const hasTags = require("./lib/has-tags");

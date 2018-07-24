@@ -1,6 +1,6 @@
 "use strict";
 
-const publishOptions = require("@lerna/publish/command").builder;
+const publishOptions = require("@0x-lerna-fork/publish/command").builder;
 
 /**
  * @see https://github.com/yargs/yargs/blob/master/docs/advanced.md#providing-a-command-module

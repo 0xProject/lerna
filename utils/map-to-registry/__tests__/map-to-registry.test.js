@@ -1,9 +1,9 @@
 "use strict";
 
-const npmConf = require("@lerna/npm-conf");
+const npmConf = require("@0x-lerna-fork/npm-conf");
 const mapToRegistry = require("..");
 
-describe("@lerna/map-to-registry", () => {
+describe("@0x-lerna-fork/map-to-registry", () => {
   describe("uri", () => {
     test("package name", () => {
       const config = npmConf();

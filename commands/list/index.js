@@ -3,8 +3,8 @@
 const chalk = require("chalk");
 const columnify = require("columnify");
 
-const Command = require("@lerna/command");
-const output = require("@lerna/output");
+const Command = require("@0x-lerna-fork/command");
+const output = require("@0x-lerna-fork/output");
 
 module.exports = factory;
 

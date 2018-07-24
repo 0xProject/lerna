@@ -5,8 +5,8 @@ const path = require("path");
 const pMap = require("p-map");
 const readPkg = require("read-pkg");
 
-const Package = require("@lerna/package");
-const createSymlink = require("@lerna/create-symlink");
+const Package = require("@0x-lerna-fork/package");
+const createSymlink = require("@0x-lerna-fork/create-symlink");
 
 module.exports = symlinkBinary;
 

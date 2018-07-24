@@ -10,5 +10,5 @@ if (importLocal(__filename)) {
 } else {
   const pkg = require("./package.json");
 
-  require("@lerna/cli")().parse(process.argv.slice(2), { lernaVersion: pkg.version });
+  require("@0x-lerna-fork/cli")().parse(process.argv.slice(2), { lernaVersion: pkg.version });
 }

@@ -1,10 +1,10 @@
 "use strict";
 
-jest.mock("@lerna/output");
+jest.mock("@0x-lerna-fork/output");
 
 const chalk = require("chalk");
 const normalizeNewline = require("normalize-newline");
-const output = require("@lerna/output");
+const output = require("@0x-lerna-fork/output");
 
 // keep snapshots stable cross-platform
 chalk.enabled = false;

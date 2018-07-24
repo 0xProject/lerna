@@ -8,8 +8,8 @@ const log = require("npmlog");
 const path = require("path");
 const writeJsonFile = require("write-json-file");
 
-const ValidationError = require("@lerna/validation-error");
-const Package = require("@lerna/package");
+const ValidationError = require("@0x-lerna-fork/validation-error");
+const Package = require("@0x-lerna-fork/package");
 const applyExtends = require("./lib/apply-extends");
 const deprecateConfig = require("./lib/deprecate-config");
 

@@ -4,7 +4,7 @@ const log = require("npmlog");
 const path = require("path");
 const pathExists = require("path-exists");
 
-const ChildProcessUtilities = require("@lerna/child-process");
+const ChildProcessUtilities = require("@0x-lerna-fork/child-process");
 
 // NOTE: if rimraf moves the location of its executable, this will need to be updated
 const RIMRAF_CLI = require.resolve("rimraf/bin");

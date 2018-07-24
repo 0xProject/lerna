@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/upgrade",
+  "name": "@0x-lerna-fork/upgrade",
   "version": "3.0.0-beta.0",
   "private": true,
   "description": "TODO",

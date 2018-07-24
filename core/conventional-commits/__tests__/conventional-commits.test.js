@@ -2,7 +2,7 @@
 
 const fs = require("fs-extra");
 const path = require("path");
-const collectPackages = require("@lerna/collect-packages");
+const collectPackages = require("@0x-lerna-fork/collect-packages");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(__dirname);

@@ -2,8 +2,8 @@
 
 const log = require("npmlog");
 
-const ChildProcessUtilities = require("@lerna/child-process");
-const getExecOpts = require("@lerna/get-npm-exec-opts");
+const ChildProcessUtilities = require("@0x-lerna-fork/child-process");
+const getExecOpts = require("@0x-lerna-fork/get-npm-exec-opts");
 
 exports.add = add;
 exports.check = check;

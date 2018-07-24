@@ -11,7 +11,7 @@ const os = require("os");
 const path = require("path");
 const semver = require("semver");
 
-const ValidationError = require("@lerna/validation-error");
+const ValidationError = require("@0x-lerna-fork/validation-error");
 
 const BLANK_LINE = os.EOL + os.EOL;
 const CHANGELOG_HEADER = dedent`

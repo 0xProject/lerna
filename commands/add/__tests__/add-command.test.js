@@ -1,12 +1,12 @@
 "use strict";
 
-jest.mock("@lerna/bootstrap");
+jest.mock("@0x-lerna-fork/bootstrap");
 
 const fs = require("fs-extra");
 const path = require("path");
 
 // mocked or stubbed modules
-const bootstrap = require("@lerna/bootstrap");
+const bootstrap = require("@0x-lerna-fork/bootstrap");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(__dirname);

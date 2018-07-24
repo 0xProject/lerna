@@ -1,8 +1,8 @@
 "use strict";
 
-const ChildProcessUtilities = require("@lerna/child-process");
-const Command = require("@lerna/command");
-const ValidationError = require("@lerna/validation-error");
+const ChildProcessUtilities = require("@0x-lerna-fork/child-process");
+const Command = require("@0x-lerna-fork/command");
+const ValidationError = require("@0x-lerna-fork/validation-error");
 const getLastCommit = require("./lib/get-last-commit");
 const hasCommit = require("./lib/has-commit");
 

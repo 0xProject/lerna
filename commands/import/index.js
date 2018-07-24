@@ -5,10 +5,10 @@ const fs = require("fs-extra");
 const path = require("path");
 const pMapSeries = require("p-map-series");
 
-const ChildProcessUtilities = require("@lerna/child-process");
-const Command = require("@lerna/command");
-const PromptUtilities = require("@lerna/prompt");
-const ValidationError = require("@lerna/validation-error");
+const ChildProcessUtilities = require("@0x-lerna-fork/child-process");
+const Command = require("@0x-lerna-fork/command");
+const PromptUtilities = require("@0x-lerna-fork/prompt");
+const ValidationError = require("@0x-lerna-fork/validation-error");
 
 module.exports = factory;
 

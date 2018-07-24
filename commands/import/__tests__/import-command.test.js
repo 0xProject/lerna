@@ -1,6 +1,6 @@
 "use strict";
 
-jest.mock("@lerna/prompt");
+jest.mock("@0x-lerna-fork/prompt");
 
 const execa = require("execa");
 const fs = require("fs-extra");
@@ -8,7 +8,7 @@ const path = require("path");
 const pathExists = require("path-exists");
 
 // mocked or stubbed modules
-const PromptUtilities = require("@lerna/prompt");
+const PromptUtilities = require("@0x-lerna-fork/prompt");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(__dirname);

@@ -3,7 +3,7 @@
 const path = require("path");
 const readPkg = require("read-pkg");
 
-const Package = require("@lerna/package");
+const Package = require("@0x-lerna-fork/package");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(__dirname);

@@ -9,17 +9,17 @@ const pMap = require("p-map");
 const pMapSeries = require("p-map-series");
 const pWaterfall = require("p-waterfall");
 
-const Command = require("@lerna/command");
-const rimrafDir = require("@lerna/rimraf-dir");
-const npmConf = require("@lerna/npm-conf");
-const npmInstall = require("@lerna/npm-install");
-const runLifecycle = require("@lerna/run-lifecycle");
-const batchPackages = require("@lerna/batch-packages");
-const runParallelBatches = require("@lerna/run-parallel-batches");
+const Command = require("@0x-lerna-fork/command");
+const rimrafDir = require("@0x-lerna-fork/rimraf-dir");
+const npmConf = require("@0x-lerna-fork/npm-conf");
+const npmInstall = require("@0x-lerna-fork/npm-install");
+const runLifecycle = require("@0x-lerna-fork/run-lifecycle");
+const batchPackages = require("@0x-lerna-fork/batch-packages");
+const runParallelBatches = require("@0x-lerna-fork/run-parallel-batches");
 const hasDependencyInstalled = require("./lib/has-dependency-installed");
-const symlinkBinary = require("@lerna/symlink-binary");
-const symlinkDependencies = require("@lerna/symlink-dependencies");
-const ValidationError = require("@lerna/validation-error");
+const symlinkBinary = require("@0x-lerna-fork/symlink-binary");
+const symlinkDependencies = require("@0x-lerna-fork/symlink-dependencies");
+const ValidationError = require("@0x-lerna-fork/validation-error");
 const isHoistedPackage = require("./lib/is-hoisted-package");
 const makeNpmFeaturePredicate = require("./lib/make-npm-feature-predicate");
 

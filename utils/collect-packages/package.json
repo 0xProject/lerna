@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/collect-packages",
+  "name": "@0x-lerna-fork/collect-packages",
   "version": "3.0.0-beta.17",
   "description": "TODO",
   "keywords": [
@@ -30,8 +30,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/package": "file:../../core/package",
-    "@lerna/validation-error": "file:../../core/validation-error",
+    "@0x-lerna-fork/package": "file:../../core/package",
+    "@0x-lerna-fork/validation-error": "file:../../core/validation-error",
     "globby": "^8.0.1",
     "load-json-file": "^4.0.0",
     "p-map": "^1.2.0"

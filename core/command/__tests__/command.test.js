@@ -10,7 +10,7 @@ const tempy = require("tempy");
 const touch = require("touch");
 
 // partially mocked
-const ChildProcessUtilities = require("@lerna/child-process");
+const ChildProcessUtilities = require("@0x-lerna-fork/child-process");
 
 // helpers
 const initFixture = require("@lerna-test/init-fixture")(__dirname);

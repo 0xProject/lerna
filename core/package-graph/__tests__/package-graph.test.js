@@ -1,6 +1,6 @@
 "use strict";
 
-const Package = require("@lerna/package");
+const Package = require("@0x-lerna-fork/package");
 
 // file under test
 const PackageGraph = require("..");

@@ -5,13 +5,13 @@ const dedent = require("dedent");
 const execa = require("execa");
 const log = require("npmlog");
 
-const PackageGraph = require("@lerna/package-graph");
-const Project = require("@lerna/project");
-const writeLogFile = require("@lerna/write-log-file");
-const collectPackages = require("@lerna/collect-packages");
-const collectUpdates = require("@lerna/collect-updates");
-const filterPackages = require("@lerna/filter-packages");
-const ValidationError = require("@lerna/validation-error");
+const PackageGraph = require("@0x-lerna-fork/package-graph");
+const Project = require("@0x-lerna-fork/project");
+const writeLogFile = require("@0x-lerna-fork/write-log-file");
+const collectPackages = require("@0x-lerna-fork/collect-packages");
+const collectUpdates = require("@0x-lerna-fork/collect-updates");
+const filterPackages = require("@0x-lerna-fork/filter-packages");
+const ValidationError = require("@0x-lerna-fork/validation-error");
 
 const cleanStack = require("./lib/clean-stack");
 const logPackageError = require("./lib/log-package-error");

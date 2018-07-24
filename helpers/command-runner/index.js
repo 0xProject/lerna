@@ -2,7 +2,7 @@
 
 const path = require("path");
 const yargs = require("yargs/yargs");
-const globalOptions = require("@lerna/global-options");
+const globalOptions = require("@0x-lerna-fork/global-options");
 
 module.exports = commandRunner;
 

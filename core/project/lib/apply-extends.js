@@ -2,7 +2,7 @@
 
 const path = require("path");
 const resolveFrom = require("resolve-from");
-const ValidationError = require("@lerna/validation-error");
+const ValidationError = require("@0x-lerna-fork/validation-error");
 const deprecateConfig = require("./deprecate-config");
 const shallowExtend = require("./shallow-extend");
 

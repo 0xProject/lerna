@@ -6,7 +6,7 @@
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "@lerna/global-options": "file:../../core/global-options",
+    "@0x-lerna-fork/global-options": "file:../../core/global-options",
     "yargs": "^11.0.0"
   }
 }

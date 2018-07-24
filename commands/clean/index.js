@@ -3,9 +3,9 @@
 const path = require("path");
 const pMap = require("p-map");
 
-const Command = require("@lerna/command");
-const rimrafDir = require("@lerna/rimraf-dir");
-const PromptUtilities = require("@lerna/prompt");
+const Command = require("@0x-lerna-fork/command");
+const rimrafDir = require("@0x-lerna-fork/rimraf-dir");
+const PromptUtilities = require("@0x-lerna-fork/prompt");
 
 module.exports = factory;
 

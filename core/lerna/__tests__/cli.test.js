@@ -43,6 +43,6 @@ describe("cli", () => {
 
     const { stdout } = await bin(cwd)("--verbose");
     expect(stdout).toContain("__fixtures__/local-install/node_modules/lerna/cli.js");
-    expect(stdout).toContain("__fixtures__/local-install/node_modules/@lerna/cli/index.js");
+    expect(stdout).toContain("__fixtures__/local-install/node_modules/@0x-lerna-fork/cli/index.js");
   });
 });

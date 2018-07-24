@@ -3,7 +3,7 @@
 const { EOL } = require("os");
 const log = require("npmlog");
 const tempWrite = require("temp-write");
-const childProcess = require("@lerna/child-process");
+const childProcess = require("@0x-lerna-fork/child-process");
 
 module.exports = gitCommit;
 

@@ -7,9 +7,9 @@ const pMap = require("p-map");
 const path = require("path");
 const semver = require("semver");
 
-const Command = require("@lerna/command");
-const bootstrap = require("@lerna/bootstrap");
-const ValidationError = require("@lerna/validation-error");
+const Command = require("@0x-lerna-fork/command");
+const bootstrap = require("@0x-lerna-fork/bootstrap");
+const ValidationError = require("@0x-lerna-fork/validation-error");
 const getRangeToReference = require("./lib/get-range-to-reference");
 
 module.exports = factory;

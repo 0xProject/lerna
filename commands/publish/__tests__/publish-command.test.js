@@ -1,12 +1,12 @@
 "use strict";
 
 // write-pkg mocked manually
-jest.mock("@lerna/prompt");
-jest.mock("@lerna/conventional-commits");
-jest.mock("@lerna/npm-dist-tag");
-jest.mock("@lerna/npm-publish");
-jest.mock("@lerna/run-lifecycle");
-jest.mock("@lerna/collect-updates");
+jest.mock("@0x-lerna-fork/prompt");
+jest.mock("@0x-lerna-fork/conventional-commits");
+jest.mock("@0x-lerna-fork/npm-dist-tag");
+jest.mock("@0x-lerna-fork/npm-publish");
+jest.mock("@0x-lerna-fork/run-lifecycle");
+jest.mock("@0x-lerna-fork/collect-updates");
 jest.mock("../lib/git-push");
 jest.mock("../lib/is-behind-upstream");
 
@@ -17,13 +17,13 @@ const semver = require("semver");
 
 // mocked or stubbed modules
 const writePkg = require("write-pkg");
-const ConventionalCommitUtilities = require("@lerna/conventional-commits");
-const Package = require("@lerna/package");
-const PromptUtilities = require("@lerna/prompt");
-const npmDistTag = require("@lerna/npm-dist-tag");
-const npmPublish = require("@lerna/npm-publish");
-const runLifecycle = require("@lerna/run-lifecycle");
-const collectUpdates = require("@lerna/collect-updates");
+const ConventionalCommitUtilities = require("@0x-lerna-fork/conventional-commits");
+const Package = require("@0x-lerna-fork/package");
+const PromptUtilities = require("@0x-lerna-fork/prompt");
+const npmDistTag = require("@0x-lerna-fork/npm-dist-tag");
+const npmPublish = require("@0x-lerna-fork/npm-publish");
+const runLifecycle = require("@0x-lerna-fork/run-lifecycle");
+const collectUpdates = require("@0x-lerna-fork/collect-updates");
 const gitPush = require("../lib/git-push");
 const isBehindUpstream = require("../lib/is-behind-upstream");
 
@@ -40,7 +40,7 @@ const showCommit = require("@lerna-test/show-commit");
 // file under test
 const lernaPublish = require("@lerna-test/command-runner")(require("../command"));
 
-const collectUpdatesActual = require.requireActual("@lerna/collect-updates");
+const collectUpdatesActual = require.requireActual("@0x-lerna-fork/collect-updates");
 // assertion helpers
 const gitCommitMessage = cwd =>
   execa("git", ["show", "--no-patch", "--pretty=%B"], { cwd }).then(result => result.stdout.trim());
