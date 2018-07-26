@@ -94,7 +94,7 @@ class PublishCommand extends Command {
           "ENOTALLOWED",
           dedent`
             Branch '${this.currentBranch}' is restricted from publishing due to allowBranch config.
-            Please consider the reasons for this restriction before overriding the option.
+            Please consider the reasons for this restriction before overriding the option
           `
         );
       }
