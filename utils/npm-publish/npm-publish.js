@@ -16,7 +16,10 @@ function npmPublish(pkg, tag, { npmClient, registry }) {
 
   if (distTag) {
     args.push("--tag", distTag);
-  }
+  } else if (isReleaseCandidate(pkg.version)) {
+    log.silly('Detected release candidate version. Adding beta tag for ', pkg.name);
+    args.push('--tag', 'beta');
+}
 
   if (npmClient === "yarn") {
     // skip prompt for new version, use existing instead
@@ -25,4 +28,10 @@ function npmPublish(pkg, tag, { npmClient, registry }) {
   }
 
   return ChildProcessUtilities.exec(npmClient, args, opts);
+}
+
+const rcRegex = new RegExp('-rc.[0-9]+$');
+
+function isReleaseCandidate(version) {
+  return rcRegex.test(version);
 }
