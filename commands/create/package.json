@@ -1,6 +1,6 @@
 {
   "name": "@0x-lerna-fork/create",
-  "version": "3.16.2",
+  "version": "3.16.3",
   "description": "Create a new lerna-managed package",
   "keywords": [
     "lerna",
@@ -33,11 +33,11 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@evocateur/pacote": "^9.6.3",
     "@0x-lerna-fork/child-process": "file:../../core/child-process",
     "@0x-lerna-fork/command": "file:../../core/command",
     "@0x-lerna-fork/npm-conf": "file:../../utils/npm-conf",
     "@0x-lerna-fork/validation-error": "file:../../core/validation-error",
+    "@evocateur/pacote": "^9.6.3",
     "camelcase": "^5.0.0",
     "dedent": "^0.7.0",
     "fs-extra": "^8.1.0",

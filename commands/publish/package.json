@@ -1,6 +1,6 @@
 {
   "name": "@0x-lerna-fork/publish",
-  "version": "3.16.2",
+  "version": "3.16.3",
   "description": "Publish packages in the current project",
   "keywords": [
     "lerna",
@@ -34,9 +34,6 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@evocateur/libnpmaccess": "^3.1.2",
-    "@evocateur/npm-registry-fetch": "^4.0.0",
-    "@evocateur/pacote": "^9.6.3",
     "@0x-lerna-fork/check-working-tree": "file:../../utils/check-working-tree",
     "@0x-lerna-fork/child-process": "file:../../core/child-process",
     "@0x-lerna-fork/collect-updates": "file:../../utils/collect-updates",
@@ -56,6 +53,9 @@
     "@0x-lerna-fork/run-topologically": "file:../../utils/run-topologically",
     "@0x-lerna-fork/validation-error": "file:../../core/validation-error",
     "@0x-lerna-fork/version": "file:../version",
+    "@evocateur/libnpmaccess": "^3.1.2",
+    "@evocateur/npm-registry-fetch": "^4.0.0",
+    "@evocateur/pacote": "^9.6.3",
     "figgy-pudding": "^3.5.1",
     "fs-extra": "^8.1.0",
     "npm-package-arg": "^6.1.0",

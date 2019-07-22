@@ -1,6 +1,6 @@
 {
   "name": "@0x-lerna-fork/otplease",
-  "version": "3.16.2",
+  "version": "3.16.3",
   "description": "Prompt for OTP when wrapped Promise fails",
   "keywords": [
     "lerna",

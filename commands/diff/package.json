@@ -1,6 +1,6 @@
 {
   "name": "@0x-lerna-fork/diff",
-  "version": "3.16.2",
+  "version": "3.16.3",
   "description": "Diff all packages or a single package since the last release",
   "keywords": [
     "lerna",

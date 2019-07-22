@@ -1,6 +1,6 @@
 {
   "name": "@0x-lerna-fork/npm-dist-tag",
-  "version": "3.16.2",
+  "version": "3.16.3",
   "description": "An internal Lerna tool",
   "keywords": [
     "lerna",
@@ -32,8 +32,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@evocateur/npm-registry-fetch": "^4.0.0",
     "@0x-lerna-fork/otplease": "file:../../core/otplease",
+    "@evocateur/npm-registry-fetch": "^4.0.0",
     "figgy-pudding": "^3.5.1",
     "npm-package-arg": "^6.1.0",
     "npmlog": "^4.1.2"
