@@ -1,6 +1,6 @@
 {
   "name": "@0x-lerna-fork/describe-ref",
-  "version": "3.16.1",
+  "version": "3.16.2",
   "description": "Parse git describe output for lerna-related tags",
   "keywords": [
     "lerna",

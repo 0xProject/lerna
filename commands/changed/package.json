@@ -1,6 +1,6 @@
 {
   "name": "@0x-lerna-fork/changed",
-  "version": "3.16.1",
+  "version": "3.16.2",
   "description": "List local packages that have changed since the last tagged release",
   "keywords": [
     "lerna",

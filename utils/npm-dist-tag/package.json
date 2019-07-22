@@ -1,6 +1,6 @@
 {
   "name": "@0x-lerna-fork/npm-dist-tag",
-  "version": "3.16.1",
+  "version": "3.16.2",
   "description": "An internal Lerna tool",
   "keywords": [
     "lerna",
