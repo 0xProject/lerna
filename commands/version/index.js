@@ -207,7 +207,7 @@ class VersionCommand extends Command {
         }
       }
 
-      return !!node.version;
+      return !node.pkg.private && !!node.version;
     });
 
     if (!this.updates.length) {
