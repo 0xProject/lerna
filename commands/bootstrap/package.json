@@ -1,6 +1,6 @@
 {
   "name": "@0x-lerna-fork/bootstrap",
-  "version": "3.16.0",
+  "version": "3.16.2",
   "description": "Link local packages together and install remaining package dependencies",
   "keywords": [
     "lerna",

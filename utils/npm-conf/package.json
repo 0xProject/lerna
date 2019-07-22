@@ -1,6 +1,6 @@
 {
   "name": "@0x-lerna-fork/npm-conf",
-  "version": "3.16.0",
+  "version": "3.16.2",
   "description": "Vendored npm-conf with updates",
   "keywords": [
     "lerna",

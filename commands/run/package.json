@@ -1,6 +1,6 @@
 {
   "name": "@0x-lerna-fork/run",
-  "version": "3.16.0",
+  "version": "3.16.2",
   "description": "Run an npm script in each package that contains that script",
   "keywords": [
     "lerna",
