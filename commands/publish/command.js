@@ -83,7 +83,7 @@ exports.builder = yargs => {
       type: "boolean",
     },
     "cd-versions": {
-      describe: `Supply multiple package semvers: ${cdVersionOptionString}`,
+      describe: `Supply multiple package semvers`,
       type: "string",
       requiresArg: true,
       coerce: choice => {
