@@ -4,8 +4,8 @@ const loadJsonFile = require("load-json-file");
 const path = require("path");
 const tempy = require("tempy");
 
-const cliRunner = require("@lerna-test/cli-runner");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const cliRunner = require("@0x-lerna-fork/cli-runner");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
 
 describe("lerna init", () => {
   const parsePackageJson = cwd => loadJsonFile(path.join(cwd, "package.json"));

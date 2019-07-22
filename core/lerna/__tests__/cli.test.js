@@ -5,7 +5,7 @@ const path = require("path");
 const tempy = require("tempy");
 
 // git init is not necessary
-const copyFixture = require("@lerna-test/copy-fixture");
+const copyFixture = require("@0x-lerna-fork/copy-fixture");
 
 const CLI = path.join(__dirname, "../cli.js");
 const bin = cwd => (...args) => execa(CLI, args, { cwd });
@@ -42,6 +42,6 @@ describe("cli", () => {
 
     const { stdout } = await bin(cwd)("--verbose");
     expect(stdout).toContain("__fixtures__/local-install/node_modules/lerna/cli.js");
-    expect(stdout).toContain("__fixtures__/local-install/node_modules/@lerna/cli/index.js");
+    expect(stdout).toContain("__fixtures__/local-install/node_modules/@0x-lerna-fork/cli/index.js");
   });
 });

@@ -1,7 +1,7 @@
 "use strict";
 
 // we're actually testing integration with git
-jest.unmock("@lerna/collect-updates");
+jest.unmock("@0x-lerna-fork/collect-updates");
 
 // local modules _must_ be explicitly mocked
 jest.mock("../lib/git-push");
@@ -13,17 +13,17 @@ const fs = require("fs-extra");
 const path = require("path");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
-const gitAdd = require("@lerna-test/git-add");
-const gitTag = require("@lerna-test/git-tag");
-const gitCommit = require("@lerna-test/git-commit");
-const showCommit = require("@lerna-test/show-commit");
+const initFixture = require("@0x-lerna-fork/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
+const gitAdd = require("@0x-lerna-fork/git-add");
+const gitTag = require("@0x-lerna-fork/git-tag");
+const gitCommit = require("@0x-lerna-fork/git-commit");
+const showCommit = require("@0x-lerna-fork/show-commit");
 
 // test command
-const lernaVersion = require("@lerna-test/command-runner")(require("../command"));
+const lernaVersion = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 // stabilize commit SHA
-expect.addSnapshotSerializer(require("@lerna-test/serialize-git-sha"));
+expect.addSnapshotSerializer(require("@0x-lerna-fork/serialize-git-sha"));
 
 describe("version --ignore-changes", () => {
   const setupChanges = async (cwd, tuples) => {

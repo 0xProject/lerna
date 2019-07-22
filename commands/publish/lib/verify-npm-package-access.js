@@ -1,8 +1,8 @@
 "use strict";
 
 const access = require("@evocateur/libnpmaccess");
-const pulseTillDone = require("@lerna/pulse-till-done");
-const ValidationError = require("@lerna/validation-error");
+const pulseTillDone = require("@0x-lerna-fork/pulse-till-done");
+const ValidationError = require("@0x-lerna-fork/validation-error");
 const FetchConfig = require("./fetch-config");
 
 module.exports = verifyNpmPackageAccess;

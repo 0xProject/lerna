@@ -1,9 +1,9 @@
 "use strict";
 
-const Command = require("@lerna/command");
-const collectUpdates = require("@lerna/collect-updates");
-const listable = require("@lerna/listable");
-const output = require("@lerna/output");
+const Command = require("@0x-lerna-fork/command");
+const collectUpdates = require("@0x-lerna-fork/collect-updates");
+const listable = require("@0x-lerna-fork/listable");
+const output = require("@0x-lerna-fork/output");
 
 module.exports = factory;
 

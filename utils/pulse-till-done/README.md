@@ -1,4 +1,4 @@
-# `@lerna/pulse-till-done`
+# `@0x-lerna-fork/pulse-till-done`
 
 > An internal Lerna tool
 

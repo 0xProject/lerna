@@ -1,4 +1,4 @@
-# `@lerna/publish`
+# `@0x-lerna-fork/publish`
 
 > Publish packages in the current project
 

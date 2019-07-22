@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/init",
+  "name": "@0x-lerna-fork/init",
   "version": "3.16.0",
   "description": "Create a new Lerna repo or upgrade an existing repo to the current version of Lerna",
   "keywords": [
@@ -32,8 +32,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/child-process": "file:../../core/child-process",
-    "@lerna/command": "file:../../core/command",
+    "@0x-lerna-fork/child-process": "file:../../core/child-process",
+    "@0x-lerna-fork/command": "file:../../core/command",
     "fs-extra": "^8.1.0",
     "p-map": "^2.1.0",
     "write-json-file": "^3.2.0"

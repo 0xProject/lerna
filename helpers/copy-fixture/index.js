@@ -1,6 +1,6 @@
 "use strict";
 
-const findFixture = require("@lerna-test/find-fixture");
+const findFixture = require("@0x-lerna-fork/find-fixture");
 const fs = require("fs-extra");
 
 module.exports = copyFixture;

@@ -1,4 +1,4 @@
-# `@lerna/gitlab-client`
+# `@0x-lerna-fork/gitlab-client`
 
 > An internal Lerna tool
 

@@ -75,7 +75,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/lerna/lerna/compare/v3.0.0-rc.0...v3.0.0) (2018-08-10)
 
-**Note:** Version bump only for package @lerna/create-symlink
+**Note:** Version bump only for package @0x-lerna-fork/create-symlink
 
 
 

@@ -1,4 +1,4 @@
-# `@lerna/write-log-file`
+# `@0x-lerna-fork/write-log-file`
 
 > What lerna uses to dump logs
 

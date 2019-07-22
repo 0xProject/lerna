@@ -2,7 +2,7 @@
 
 const path = require("path");
 const log = require("npmlog");
-const childProcess = require("@lerna/child-process");
+const childProcess = require("@0x-lerna-fork/child-process");
 
 module.exports = getTaggedPackages;
 

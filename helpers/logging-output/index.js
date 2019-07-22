@@ -1,7 +1,7 @@
 "use strict";
 
 const log = require("npmlog");
-const multiLineTrimRight = require("@lerna-test/multi-line-trim-right");
+const multiLineTrimRight = require("@0x-lerna-fork/multi-line-trim-right");
 
 module.exports = loggingOutput;
 

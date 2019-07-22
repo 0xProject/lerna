@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/npm-run-script",
+  "name": "@0x-lerna-fork/npm-run-script",
   "version": "3.14.2",
   "description": "An internal Lerna tool",
   "keywords": [
@@ -31,8 +31,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/child-process": "file:../../core/child-process",
-    "@lerna/get-npm-exec-opts": "file:../get-npm-exec-opts",
+    "@0x-lerna-fork/child-process": "file:../../core/child-process",
+    "@0x-lerna-fork/get-npm-exec-opts": "file:../get-npm-exec-opts",
     "npmlog": "^4.1.2"
   }
 }

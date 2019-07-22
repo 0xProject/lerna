@@ -5,7 +5,7 @@ const normalizePath = require("normalize-path");
 
 const WHACK_WACK = /(\\)([\S]*)/g;
 
-// expect.addSnapshotSerializer(require("@lerna-test/serialize-windows-paths"));
+// expect.addSnapshotSerializer(require("@0x-lerna-fork/serialize-windows-paths"));
 module.exports = {
   test(val) {
     return typeof val === "string" && WHACK_WACK.test(val);

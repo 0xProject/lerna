@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/pack-directory",
+  "name": "@0x-lerna-fork/pack-directory",
   "version": "3.16.0",
   "description": "Pack a directory into an npm package tarball",
   "keywords": [
@@ -27,9 +27,9 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/get-packed": "file:../get-packed",
-    "@lerna/package": "file:../../core/package",
-    "@lerna/run-lifecycle": "file:../run-lifecycle",
+    "@0x-lerna-fork/get-packed": "file:../get-packed",
+    "@0x-lerna-fork/package": "file:../../core/package",
+    "@0x-lerna-fork/run-lifecycle": "file:../run-lifecycle",
     "figgy-pudding": "^3.5.1",
     "npm-packlist": "^1.4.4",
     "npmlog": "^4.1.2",

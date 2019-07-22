@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/has-npm-version",
+  "name": "@0x-lerna-fork/has-npm-version",
   "version": "3.16.0",
   "description": "Test if the current version of npm satisfies a given semver range",
   "keywords": [
@@ -28,7 +28,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/child-process": "file:../../core/child-process",
+    "@0x-lerna-fork/child-process": "file:../../core/child-process",
     "semver": "^6.2.0"
   }
 }

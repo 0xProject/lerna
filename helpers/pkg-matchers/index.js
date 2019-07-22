@@ -4,7 +4,7 @@ const fs = require("fs");
 const os = require("os");
 const path = require("path");
 const semver = require("semver");
-const Package = require("@lerna/package");
+const Package = require("@0x-lerna-fork/package");
 
 exports.toDependOn = createDependencyMatcher("dependencies");
 exports.toDevDependOn = createDependencyMatcher("devDependencies");

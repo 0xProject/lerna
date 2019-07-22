@@ -1,9 +1,9 @@
 "use strict";
 
 const normalizeNewline = require("normalize-newline");
-const gitSHA = require("@lerna-test/serialize-git-sha");
+const gitSHA = require("@0x-lerna-fork/serialize-git-sha");
 
-// expect.addSnapshotSerializer(require("@lerna-test/serialize-changelog"));
+// expect.addSnapshotSerializer(require("@0x-lerna-fork/serialize-changelog"));
 module.exports = {
   serialize(str) {
     return gitSHA

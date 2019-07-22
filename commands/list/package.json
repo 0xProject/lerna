@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/list",
+  "name": "@0x-lerna-fork/list",
   "version": "3.16.0",
   "description": "List local packages",
   "keywords": [
@@ -32,9 +32,9 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/command": "file:../../core/command",
-    "@lerna/filter-options": "file:../../core/filter-options",
-    "@lerna/listable": "file:../../utils/listable",
-    "@lerna/output": "file:../../utils/output"
+    "@0x-lerna-fork/command": "file:../../core/command",
+    "@0x-lerna-fork/filter-options": "file:../../core/filter-options",
+    "@0x-lerna-fork/listable": "file:../../utils/listable",
+    "@0x-lerna-fork/output": "file:../../utils/output"
   }
 }

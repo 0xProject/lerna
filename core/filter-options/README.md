@@ -1,4 +1,4 @@
-# `@lerna/filter-options`
+# `@0x-lerna-fork/filter-options`
 
 > Options for lerna sub-commands that need filtering
 

@@ -3,15 +3,15 @@
 const path = require("path");
 
 // mocked modules
-const ChildProcessUtilities = require("@lerna/child-process");
+const ChildProcessUtilities = require("@0x-lerna-fork/child-process");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const loggingOutput = require("@lerna-test/logging-output");
-const normalizeRelativeDir = require("@lerna-test/normalize-relative-dir");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const loggingOutput = require("@0x-lerna-fork/logging-output");
+const normalizeRelativeDir = require("@0x-lerna-fork/normalize-relative-dir");
 
 // file under test
-const lernaExec = require("@lerna-test/command-runner")(require("../command"));
+const lernaExec = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 // assertion helpers
 const calledInPackages = () =>

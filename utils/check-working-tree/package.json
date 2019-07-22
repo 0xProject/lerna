@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/check-working-tree",
+  "name": "@0x-lerna-fork/check-working-tree",
   "version": "3.14.2",
   "description": "Check git working tree status and error appropriately",
   "keywords": [
@@ -30,8 +30,8 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/collect-uncommitted": "file:../collect-uncommitted",
-    "@lerna/describe-ref": "file:../describe-ref",
-    "@lerna/validation-error": "file:../../core/validation-error"
+    "@0x-lerna-fork/collect-uncommitted": "file:../collect-uncommitted",
+    "@0x-lerna-fork/describe-ref": "file:../describe-ref",
+    "@0x-lerna-fork/validation-error": "file:../../core/validation-error"
   }
 }

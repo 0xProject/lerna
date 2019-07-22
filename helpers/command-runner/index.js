@@ -1,7 +1,7 @@
 "use strict";
 
 const path = require("path");
-const lernaCLI = require("@lerna/cli");
+const lernaCLI = require("@0x-lerna-fork/cli");
 
 module.exports = commandRunner;
 

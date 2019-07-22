@@ -1,7 +1,7 @@
 "use strict";
 
-const Project = require("@lerna/project");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const Project = require("@0x-lerna-fork/project");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
 const getPackagesWithoutLicense = require("../lib/get-packages-without-license");
 
 test("getPackagesWithoutLicense", async () => {

@@ -1,12 +1,12 @@
 "use strict";
 
-const npmConf = require("@lerna/npm-conf");
+const npmConf = require("@0x-lerna-fork/npm-conf");
 const mapToRegistry = require("..");
 
 // override value provided by set-npm-userconfig, ensuring blank slate
 process.env.npm_config_userconfig = __dirname;
 
-describe("@lerna/map-to-registry", () => {
+describe("@0x-lerna-fork/map-to-registry", () => {
   describe("uri", () => {
     test("package name", () => {
       const config = npmConf();

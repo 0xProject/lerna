@@ -1,8 +1,8 @@
 "use strict";
 
-const ValidationError = require("@lerna/validation-error");
-const loggingOutput = require("@lerna-test/logging-output");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const ValidationError = require("@0x-lerna-fork/validation-error");
+const loggingOutput = require("@0x-lerna-fork/logging-output");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
 const coreCLI = require("..");
 
 function prepare(cwd) {

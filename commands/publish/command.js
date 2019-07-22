@@ -1,7 +1,7 @@
 "use strict";
 
 const log = require("npmlog");
-const versionCommand = require("@lerna/version/command");
+const versionCommand = require("@0x-lerna-fork/version/command");
 
 /**
  * @see https://github.com/yargs/yargs/blob/master/docs/advanced.md#providing-a-command-module

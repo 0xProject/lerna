@@ -12,29 +12,29 @@ const execa = require("execa");
 
 // mocked or stubbed modules
 const writePkg = require("write-pkg");
-const PromptUtilities = require("@lerna/prompt");
-const collectUpdates = require("@lerna/collect-updates");
-const output = require("@lerna/output");
-const checkWorkingTree = require("@lerna/check-working-tree");
+const PromptUtilities = require("@0x-lerna-fork/prompt");
+const collectUpdates = require("@0x-lerna-fork/collect-updates");
+const output = require("@0x-lerna-fork/output");
+const checkWorkingTree = require("@0x-lerna-fork/check-working-tree");
 const libPush = require("../lib/git-push");
 const isAnythingCommitted = require("../lib/is-anything-committed");
 const isBehindUpstream = require("../lib/is-behind-upstream");
 const remoteBranchExists = require("../lib/remote-branch-exists");
 
 // helpers
-const loggingOutput = require("@lerna-test/logging-output");
-const gitAdd = require("@lerna-test/git-add");
-const gitTag = require("@lerna-test/git-tag");
-const gitCommit = require("@lerna-test/git-commit");
-const initFixture = require("@lerna-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
-const showCommit = require("@lerna-test/show-commit");
-const getCommitMessage = require("@lerna-test/get-commit-message");
+const loggingOutput = require("@0x-lerna-fork/logging-output");
+const gitAdd = require("@0x-lerna-fork/git-add");
+const gitTag = require("@0x-lerna-fork/git-tag");
+const gitCommit = require("@0x-lerna-fork/git-commit");
+const initFixture = require("@0x-lerna-fork/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
+const showCommit = require("@0x-lerna-fork/show-commit");
+const getCommitMessage = require("@0x-lerna-fork/get-commit-message");
 
 // file under test
-const lernaVersion = require("@lerna-test/command-runner")(require("../command"));
+const lernaVersion = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 // certain tests need to use the real thing
-const collectUpdatesActual = require.requireActual("@lerna/collect-updates");
+const collectUpdatesActual = require.requireActual("@0x-lerna-fork/collect-updates");
 
 // assertion helpers
 const listDirty = cwd =>
@@ -44,7 +44,7 @@ const listDirty = cwd =>
   );
 
 // stabilize commit SHA
-expect.addSnapshotSerializer(require("@lerna-test/serialize-git-sha"));
+expect.addSnapshotSerializer(require("@0x-lerna-fork/serialize-git-sha"));
 
 describe("VersionCommand", () => {
   describe("normal mode", () => {

@@ -1,4 +1,4 @@
-# `@lerna/prompt`
+# `@0x-lerna-fork/prompt`
 
 > An internal Lerna tool
 

@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/resolve-symlink",
+  "name": "@0x-lerna-fork/resolve-symlink",
   "version": "3.16.0",
   "description": "An internal Lerna tool",
   "keywords": [

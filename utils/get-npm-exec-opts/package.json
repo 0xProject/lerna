@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/get-npm-exec-opts",
+  "name": "@0x-lerna-fork/get-npm-exec-opts",
   "version": "3.13.0",
   "description": "An internal Lerna tool",
   "keywords": [

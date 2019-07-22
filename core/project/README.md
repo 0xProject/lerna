@@ -1,4 +1,4 @@
-# `@lerna/project`
+# `@0x-lerna-fork/project`
 
 > Lerna project configuration
 

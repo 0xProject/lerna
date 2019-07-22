@@ -7,7 +7,7 @@ const normalizePath = require("normalize-path");
 const TEMP_DIR_REGEXP = /([^\s"]*[\\/][0-9a-f]{32})([^\s"]*)/g;
 // the excluded quotes are due to other snapshot serializers mutating the raw input
 
-// expect.addSnapshotSerializer(require("@lerna-test/serialize-tempdir"));
+// expect.addSnapshotSerializer(require("@0x-lerna-fork/serialize-tempdir"));
 module.exports = {
   test(val) {
     return typeof val === "string" && TEMP_DIR_REGEXP.test(val);

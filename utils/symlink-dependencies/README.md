@@ -1,4 +1,4 @@
-# `@lerna/symlink-dependencies`
+# `@0x-lerna-fork/symlink-dependencies`
 
 > Lerna's internal symlinking tool
 

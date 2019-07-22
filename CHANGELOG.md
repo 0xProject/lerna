@@ -116,7 +116,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **publish:** Display uncommitted changes when validation fails ([#2066](https://github.com/lerna/lerna/issues/2066)) ([ea41fe9](https://github.com/lerna/lerna/commit/ea41fe9))
 * **query-graph:** Add toposort() helper ([90759c2](https://github.com/lerna/lerna/commit/90759c2))
 * **run:** Add just-in-time queue management ([#2045](https://github.com/lerna/lerna/issues/2045)) ([6eca172](https://github.com/lerna/lerna/commit/6eca172))
-* **run:** Extract `@lerna/run-topologically` ([3a8b175](https://github.com/lerna/lerna/commit/3a8b175))
+* **run:** Extract `@0x-lerna-fork/run-topologically` ([3a8b175](https://github.com/lerna/lerna/commit/3a8b175))
 * **version:** Add just-in-time queue management ([290539b](https://github.com/lerna/lerna/commit/290539b))
 
 
@@ -1127,7 +1127,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 despite logging the unexpected arguments correctly. This would result in the commands continuing to run with unexpected configuration.
 
 Going forward, lerna will exit non-zero _immediately_ upon encountering these errors.
-* `@lerna/git-utils` is gone. Don't use it.
+* `@0x-lerna-fork/git-utils` is gone. Don't use it.
 * **collect-updates:** GitUtilities is going away soon.
 * **diff:** Don't use GitUtilities.
 * **git-utils:** Don't use GitUtilities!
@@ -1445,13 +1445,13 @@ These config blocks should be moved to `command.bootstrap` and `command.publish`
 
 ### Bug Fixes
 
-* Move `@lerna/has-dependency-installed` into `commands/bootstrap/lib` ([c09ccbd](https://github.com/lerna/lerna/commit/c09ccbd))
+* Move `@0x-lerna-fork/has-dependency-installed` into `commands/bootstrap/lib` ([c09ccbd](https://github.com/lerna/lerna/commit/c09ccbd))
 
 ### Features
 
-* Rename `@lerna/fs-utils` => `@lerna/rimraf-dir` ([30451ed](https://github.com/lerna/lerna/commit/30451ed))
-* Replace `@lerna/fs-utils` dependency with `fs-extra` ([9c35a86](https://github.com/lerna/lerna/commit/9c35a86))
-* Replace `@lerna/match-package-name` with `multimatch` ([423f82c](https://github.com/lerna/lerna/commit/423f82c))
+* Rename `@0x-lerna-fork/fs-utils` => `@0x-lerna-fork/rimraf-dir` ([30451ed](https://github.com/lerna/lerna/commit/30451ed))
+* Replace `@0x-lerna-fork/fs-utils` dependency with `fs-extra` ([9c35a86](https://github.com/lerna/lerna/commit/9c35a86))
+* Replace `@0x-lerna-fork/match-package-name` with `multimatch` ([423f82c](https://github.com/lerna/lerna/commit/423f82c))
 * **filter-packages:** Simplify method signature ([47e1c86](https://github.com/lerna/lerna/commit/47e1c86))
 
 

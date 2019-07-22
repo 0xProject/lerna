@@ -1,10 +1,10 @@
 "use strict";
 
-jest.mock("@lerna/describe-ref");
-jest.mock("@lerna/collect-uncommitted");
+jest.mock("@0x-lerna-fork/describe-ref");
+jest.mock("@0x-lerna-fork/collect-uncommitted");
 
-const describeRef = require("@lerna/describe-ref");
-const collectUncommitted = require("@lerna/collect-uncommitted");
+const describeRef = require("@0x-lerna-fork/describe-ref");
+const collectUncommitted = require("@0x-lerna-fork/collect-uncommitted");
 const checkWorkingTree = require("../lib/check-working-tree");
 
 describe("check-working-tree", () => {

@@ -16,16 +16,16 @@ const fs = require("fs-extra");
 const path = require("path");
 
 // mocked modules
-const packDirectory = require("@lerna/pack-directory");
+const packDirectory = require("@0x-lerna-fork/pack-directory");
 const createTempLicenses = require("../lib/create-temp-licenses");
 const removeTempLicenses = require("../lib/remove-temp-licenses");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const loggingOutput = require("@lerna-test/logging-output");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const loggingOutput = require("@0x-lerna-fork/logging-output");
 
 // test command
-const lernaPublish = require("@lerna-test/command-runner")(require("../command"));
+const lernaPublish = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 describe("licenses", () => {
   it("makes a temporary copy of the root license text if package has none", async () => {

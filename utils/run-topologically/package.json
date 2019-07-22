@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/run-topologically",
+  "name": "@0x-lerna-fork/run-topologically",
   "version": "3.16.0",
   "description": "An internal Lerna tool",
   "keywords": [
@@ -31,7 +31,7 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/query-graph": "file:../query-graph",
+    "@0x-lerna-fork/query-graph": "file:../query-graph",
     "figgy-pudding": "^3.5.1",
     "p-queue": "^4.0.0"
   }

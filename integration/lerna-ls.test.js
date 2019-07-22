@@ -1,7 +1,7 @@
 "use strict";
 
-const cliRunner = require("@lerna-test/cli-runner");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const cliRunner = require("@0x-lerna-fork/cli-runner");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
 
 // ls never makes changes to repo, so we only need one fixture + runner
 let lerna;

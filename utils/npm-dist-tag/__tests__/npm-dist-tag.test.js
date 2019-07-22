@@ -1,7 +1,7 @@
 "use strict";
 
 jest.mock("@evocateur/npm-registry-fetch");
-jest.mock("@lerna/otplease", () => (cb, opts) => Promise.resolve(cb(opts)));
+jest.mock("@0x-lerna-fork/otplease", () => (cb, opts) => Promise.resolve(cb(opts)));
 
 // mocked modules
 const fetch = require("@evocateur/npm-registry-fetch");
@@ -9,7 +9,7 @@ const fetch = require("@evocateur/npm-registry-fetch");
 // file under test
 const npmDistTag = require("..");
 
-expect.extend(require("@lerna-test/figgy-pudding-matchers"));
+expect.extend(require("@0x-lerna-fork/figgy-pudding-matchers"));
 
 const stubLog = {
   verbose: jest.fn(),

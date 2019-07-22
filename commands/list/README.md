@@ -1,4 +1,4 @@
-# `@lerna/list`
+# `@0x-lerna-fork/list`
 
 > List local packages
 
@@ -34,7 +34,7 @@ In any case, you can always pass `--loglevel silent` to create pristine chains o
 - [`--toposort`](#--toposort)
 - [`--graph`](#--graph)
 
-`lerna ls` also respects all available [Filter Flags](https://www.npmjs.com/package/@lerna/filter-options).
+`lerna ls` also respects all available [Filter Flags](https://www.npmjs.com/package/@0x-lerna-fork/filter-options).
 
 ### `--json`
 

@@ -1,4 +1,4 @@
-# `@lerna/get-npm-exec-opts`
+# `@0x-lerna-fork/get-npm-exec-opts`
 
 > An internal Lerna tool
 

@@ -3,8 +3,8 @@
 const execa = require("execa");
 const fileUrl = require("file-url");
 const tempy = require("tempy");
-const gitInit = require("@lerna-test/git-init");
-const initFactory = require("@lerna-test/init-fixture");
+const gitInit = require("@0x-lerna-fork/git-init");
+const initFactory = require("@0x-lerna-fork/init-fixture");
 
 module.exports = cloneFixture;
 

@@ -1,7 +1,7 @@
 "use strict";
 
 // we're actually testing integration with git
-jest.unmock("@lerna/collect-updates");
+jest.unmock("@0x-lerna-fork/collect-updates");
 
 // local modules _must_ be explicitly mocked
 jest.mock("../lib/get-packages-without-license");
@@ -11,26 +11,26 @@ jest.mock("../lib/get-two-factor-auth-required");
 
 const fs = require("fs-extra");
 const path = require("path");
-const childProcess = require("@lerna/child-process");
+const childProcess = require("@0x-lerna-fork/child-process");
 
 // mocked modules
 const writePkg = require("write-pkg");
-const npmPublish = require("@lerna/npm-publish");
-const PromptUtilities = require("@lerna/prompt");
-const checkWorkingTree = require("@lerna/check-working-tree");
+const npmPublish = require("@0x-lerna-fork/npm-publish");
+const PromptUtilities = require("@0x-lerna-fork/prompt");
+const checkWorkingTree = require("@0x-lerna-fork/check-working-tree");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const gitAdd = require("@lerna-test/git-add");
-const gitTag = require("@lerna-test/git-tag");
-const gitCommit = require("@lerna-test/git-commit");
-const loggingOutput = require("@lerna-test/logging-output");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const gitAdd = require("@0x-lerna-fork/git-add");
+const gitTag = require("@0x-lerna-fork/git-tag");
+const gitCommit = require("@0x-lerna-fork/git-commit");
+const loggingOutput = require("@0x-lerna-fork/logging-output");
 
 // test command
-const lernaPublish = require("@lerna-test/command-runner")(require("../command"));
+const lernaPublish = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 // stabilize commit SHA
-expect.addSnapshotSerializer(require("@lerna-test/serialize-git-sha"));
+expect.addSnapshotSerializer(require("@0x-lerna-fork/serialize-git-sha"));
 
 async function initTaggedFixture(fixtureName) {
   const cwd = await initFixture(fixtureName);

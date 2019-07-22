@@ -2,13 +2,13 @@
 
 const pMap = require("p-map");
 
-const Command = require("@lerna/command");
-const npmRunScript = require("@lerna/npm-run-script");
-const output = require("@lerna/output");
-const timer = require("@lerna/timer");
-const runTopologically = require("@lerna/run-topologically");
-const ValidationError = require("@lerna/validation-error");
-const { getFilteredPackages } = require("@lerna/filter-options");
+const Command = require("@0x-lerna-fork/command");
+const npmRunScript = require("@0x-lerna-fork/npm-run-script");
+const output = require("@0x-lerna-fork/output");
+const timer = require("@0x-lerna-fork/timer");
+const runTopologically = require("@0x-lerna-fork/run-topologically");
+const ValidationError = require("@0x-lerna-fork/validation-error");
+const { getFilteredPackages } = require("@0x-lerna-fork/filter-options");
 
 module.exports = factory;
 

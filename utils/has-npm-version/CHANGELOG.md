@@ -16,7 +16,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.14.2](https://github.com/lerna/lerna/compare/v3.14.1...v3.14.2) (2019-06-09)
 
-**Note:** Version bump only for package @lerna/has-npm-version
+**Note:** Version bump only for package @0x-lerna-fork/has-npm-version
 
 
 
@@ -24,7 +24,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.13.3](https://github.com/lerna/lerna/compare/v3.13.2...v3.13.3) (2019-04-17)
 
-**Note:** Version bump only for package @lerna/has-npm-version
+**Note:** Version bump only for package @0x-lerna-fork/has-npm-version
 
 
 
@@ -43,7 +43,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.10.0](https://github.com/lerna/lerna/compare/v3.9.1...v3.10.0) (2019-01-08)
 
-**Note:** Version bump only for package @lerna/has-npm-version
+**Note:** Version bump only for package @0x-lerna-fork/has-npm-version
 
 
 
@@ -52,7 +52,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.3.0"></a>
 # [3.3.0](https://github.com/lerna/lerna/compare/v3.2.1...v3.3.0) (2018-09-06)
 
-**Note:** Version bump only for package @lerna/has-npm-version
+**Note:** Version bump only for package @0x-lerna-fork/has-npm-version
 
 
 
@@ -61,4 +61,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.4"></a>
 ## [3.0.4](https://github.com/lerna/lerna/compare/v3.0.3...v3.0.4) (2018-08-14)
 
-**Note:** Version bump only for package @lerna/has-npm-version
+**Note:** Version bump only for package @0x-lerna-fork/has-npm-version

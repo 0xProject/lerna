@@ -5,9 +5,9 @@ const path = require("path");
 const chalk = require("chalk");
 
 // helpers
-const { getPackages } = require("@lerna/project");
-const gitAdd = require("@lerna-test/git-add");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const { getPackages } = require("@0x-lerna-fork/project");
+const gitAdd = require("@0x-lerna-fork/git-add");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
 
 // file under test
 const collectUncommitted = require("../lib/collect-uncommitted");

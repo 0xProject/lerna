@@ -1,5 +1,5 @@
 {
-  "name": "@lerna-test/figgy-pudding-matchers",
+  "name": "@0x-lerna-fork/figgy-pudding-matchers",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",

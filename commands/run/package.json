@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/run",
+  "name": "@0x-lerna-fork/run",
   "version": "3.16.0",
   "description": "Run an npm script in each package that contains that script",
   "keywords": [
@@ -35,13 +35,13 @@
     "populate--": true
   },
   "dependencies": {
-    "@lerna/command": "file:../../core/command",
-    "@lerna/filter-options": "file:../../core/filter-options",
-    "@lerna/npm-run-script": "file:../../utils/npm-run-script",
-    "@lerna/output": "file:../../utils/output",
-    "@lerna/run-topologically": "file:../../utils/run-topologically",
-    "@lerna/timer": "file:../../utils/timer",
-    "@lerna/validation-error": "file:../../core/validation-error",
+    "@0x-lerna-fork/command": "file:../../core/command",
+    "@0x-lerna-fork/filter-options": "file:../../core/filter-options",
+    "@0x-lerna-fork/npm-run-script": "file:../../utils/npm-run-script",
+    "@0x-lerna-fork/output": "file:../../utils/output",
+    "@0x-lerna-fork/run-topologically": "file:../../utils/run-topologically",
+    "@0x-lerna-fork/timer": "file:../../utils/timer",
+    "@0x-lerna-fork/validation-error": "file:../../core/validation-error",
     "p-map": "^2.1.0"
   }
 }

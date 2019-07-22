@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/package-graph",
+  "name": "@0x-lerna-fork/package-graph",
   "version": "3.16.0",
   "description": "Lerna's internal representation of a package graph",
   "keywords": [
@@ -31,8 +31,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/prerelease-id-from-version": "file:../../utils/prerelease-id-from-version",
-    "@lerna/validation-error": "file:../validation-error",
+    "@0x-lerna-fork/prerelease-id-from-version": "file:../../utils/prerelease-id-from-version",
+    "@0x-lerna-fork/validation-error": "file:../validation-error",
     "npm-package-arg": "^6.1.0",
     "npmlog": "^4.1.2",
     "semver": "^6.2.0"

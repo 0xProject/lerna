@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/cli",
+  "name": "@0x-lerna-fork/cli",
   "version": "3.13.0",
   "description": "Lerna's CLI",
   "keywords": [
@@ -34,7 +34,7 @@
     "populate--": true
   },
   "dependencies": {
-    "@lerna/global-options": "file:../global-options",
+    "@0x-lerna-fork/global-options": "file:../global-options",
     "dedent": "^0.7.0",
     "npmlog": "^4.1.2",
     "yargs": "^12.0.1"

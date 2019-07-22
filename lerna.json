@@ -1,26 +1,16 @@
 {
-  "packages": [
-    "commands/*",
-    "core/*",
-    "utils/*"
-  ],
+  "packages": ["commands/*", "core/*", "utils/*"],
   "command": {
     "create": {
-      "homepage": "https://github.com/lerna/lerna",
+      "homepage": "https://github.com/0xproject/lerna",
       "license": "MIT"
     },
     "version": {
-      "allowBranch": "master",
       "conventionalCommits": true,
       "exact": true,
-      "gitRemote": "upstream",
       "message": "chore(release): %s"
     }
   },
-  "ignoreChanges": [
-    "**/__fixtures__/**",
-    "**/__tests__/**",
-    "**/*.md"
-  ],
+  "ignoreChanges": ["**/__fixtures__/**", "**/__tests__/**", "**/*.md"],
   "version": "3.16.0"
 }

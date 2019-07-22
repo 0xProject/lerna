@@ -2,11 +2,11 @@
 
 const pMap = require("p-map");
 
-const ChildProcessUtilities = require("@lerna/child-process");
-const Command = require("@lerna/command");
-const runTopologically = require("@lerna/run-topologically");
-const ValidationError = require("@lerna/validation-error");
-const { getFilteredPackages } = require("@lerna/filter-options");
+const ChildProcessUtilities = require("@0x-lerna-fork/child-process");
+const Command = require("@0x-lerna-fork/command");
+const runTopologically = require("@0x-lerna-fork/run-topologically");
+const ValidationError = require("@0x-lerna-fork/validation-error");
+const { getFilteredPackages } = require("@0x-lerna-fork/filter-options");
 
 module.exports = factory;
 

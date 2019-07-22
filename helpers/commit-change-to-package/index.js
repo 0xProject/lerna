@@ -3,8 +3,8 @@
 const path = require("path");
 const loadJsonFile = require("load-json-file");
 const writeJsonFile = require("write-json-file");
-const gitAdd = require("@lerna-test/git-add");
-const gitCommit = require("@lerna-test/git-commit");
+const gitAdd = require("@0x-lerna-fork/git-add");
+const gitCommit = require("@0x-lerna-fork/git-commit");
 
 module.exports = commitChangeToPackage;
 

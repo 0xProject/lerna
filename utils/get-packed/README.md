@@ -1,4 +1,4 @@
-# `@lerna/get-packed`
+# `@0x-lerna-fork/get-packed`
 
 > Read contents of package tarball created by npm pack
 

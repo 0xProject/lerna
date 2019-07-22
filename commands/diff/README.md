@@ -1,4 +1,4 @@
-# `@lerna/diff`
+# `@0x-lerna-fork/diff`
 
 > Diff all packages or a single package since the last release
 

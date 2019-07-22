@@ -1,27 +1,27 @@
 "use strict";
 
-jest.mock("@lerna/rimraf-dir");
-jest.mock("@lerna/npm-install");
-jest.mock("@lerna/run-lifecycle");
-jest.mock("@lerna/create-symlink");
+jest.mock("@0x-lerna-fork/rimraf-dir");
+jest.mock("@0x-lerna-fork/npm-install");
+jest.mock("@0x-lerna-fork/run-lifecycle");
+jest.mock("@0x-lerna-fork/create-symlink");
 
 const fs = require("fs-extra");
 const path = require("path");
 
 // mocked or stubbed modules
-const rimrafDir = require("@lerna/rimraf-dir");
-const npmInstall = require("@lerna/npm-install");
-const runLifecycle = require("@lerna/run-lifecycle");
-const createSymlink = require("@lerna/create-symlink");
-const hasNpmVersion = require("@lerna/has-npm-version");
+const rimrafDir = require("@0x-lerna-fork/rimraf-dir");
+const npmInstall = require("@0x-lerna-fork/npm-install");
+const runLifecycle = require("@0x-lerna-fork/run-lifecycle");
+const createSymlink = require("@0x-lerna-fork/create-symlink");
+const hasNpmVersion = require("@0x-lerna-fork/has-npm-version");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const normalizeRelativeDir = require("@lerna-test/normalize-relative-dir");
-const updateLernaConfig = require("@lerna-test/update-lerna-config");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const normalizeRelativeDir = require("@0x-lerna-fork/normalize-relative-dir");
+const updateLernaConfig = require("@0x-lerna-fork/update-lerna-config");
 
 // file under test
-const lernaBootstrap = require("@lerna-test/command-runner")(require("../command"));
+const lernaBootstrap = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 // assertion helpers
 const installedPackagesInDirectories = testDir =>

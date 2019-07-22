@@ -1,4 +1,4 @@
-# `@lerna/github-client`
+# `@0x-lerna-fork/github-client`
 
 > An internal Lerna tool
 

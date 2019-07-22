@@ -1,11 +1,11 @@
-# `@lerna/check-working-tree`
+# `@0x-lerna-fork/check-working-tree`
 
 > Check git working tree status and error appropriately
 
 ## Usage
 
 ```js
-const checkWorkingTree = require("@lerna/check-working-tree");
+const checkWorkingTree = require("@0x-lerna-fork/check-working-tree");
 
 // values listed here are their defaults
 const options = {

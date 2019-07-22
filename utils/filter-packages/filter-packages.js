@@ -4,7 +4,7 @@ const util = require("util");
 const multimatch = require("multimatch");
 const log = require("npmlog");
 
-const ValidationError = require("@lerna/validation-error");
+const ValidationError = require("@0x-lerna-fork/validation-error");
 
 module.exports = filterPackages;
 

@@ -1,4 +1,4 @@
-# `@lerna/import`
+# `@0x-lerna-fork/import`
 
 > Import a package into the monorepo with commit history
 

@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.16.0](https://github.com/lerna/lerna/compare/v3.15.0...v3.16.0) (2019-07-18)
 
-**Note:** Version bump only for package @lerna/filter-options
+**Note:** Version bump only for package @0x-lerna-fork/filter-options
 
 
 
@@ -13,7 +13,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.14.2](https://github.com/lerna/lerna/compare/v3.14.1...v3.14.2) (2019-06-09)
 
-**Note:** Version bump only for package @lerna/filter-options
+**Note:** Version bump only for package @0x-lerna-fork/filter-options
 
 
 
@@ -21,7 +21,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.14.0](https://github.com/lerna/lerna/compare/v3.13.4...v3.14.0) (2019-05-14)
 
-**Note:** Version bump only for package @lerna/filter-options
+**Note:** Version bump only for package @0x-lerna-fork/filter-options
 
 
 
@@ -29,7 +29,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.13.3](https://github.com/lerna/lerna/compare/v3.13.2...v3.13.3) (2019-04-17)
 
-**Note:** Version bump only for package @lerna/filter-options
+**Note:** Version bump only for package @0x-lerna-fork/filter-options
 
 
 
@@ -49,7 +49,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.12.1](https://github.com/lerna/lerna/compare/v3.12.0...v3.12.1) (2019-02-14)
 
-**Note:** Version bump only for package @lerna/filter-options
+**Note:** Version bump only for package @0x-lerna-fork/filter-options
 
 
 
@@ -57,7 +57,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.12.0](https://github.com/lerna/lerna/compare/v3.11.1...v3.12.0) (2019-02-14)
 
-**Note:** Version bump only for package @lerna/filter-options
+**Note:** Version bump only for package @0x-lerna-fork/filter-options
 
 
 
@@ -87,7 +87,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.10.1](https://github.com/lerna/lerna/compare/v3.10.0...v3.10.1) (2019-01-09)
 
-**Note:** Version bump only for package @lerna/filter-options
+**Note:** Version bump only for package @0x-lerna-fork/filter-options
 
 
 
@@ -95,7 +95,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.10.0](https://github.com/lerna/lerna/compare/v3.9.1...v3.10.0) (2019-01-08)
 
-**Note:** Version bump only for package @lerna/filter-options
+**Note:** Version bump only for package @0x-lerna-fork/filter-options
 
 
 
@@ -103,7 +103,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.9.0](https://github.com/lerna/lerna/compare/v3.8.5...v3.9.0) (2019-01-08)
 
-**Note:** Version bump only for package @lerna/filter-options
+**Note:** Version bump only for package @0x-lerna-fork/filter-options
 
 
 
@@ -111,7 +111,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.8.1](https://github.com/lerna/lerna/compare/v3.8.0...v3.8.1) (2018-12-31)
 
-**Note:** Version bump only for package @lerna/filter-options
+**Note:** Version bump only for package @0x-lerna-fork/filter-options
 
 
 
@@ -119,7 +119,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.6.0](https://github.com/lerna/lerna/compare/v3.5.1...v3.6.0) (2018-12-07)
 
-**Note:** Version bump only for package @lerna/filter-options
+**Note:** Version bump only for package @0x-lerna-fork/filter-options
 
 
 
@@ -127,7 +127,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.5.0](https://github.com/lerna/lerna/compare/v3.4.3...v3.5.0) (2018-11-27)
 
-**Note:** Version bump only for package @lerna/filter-options
+**Note:** Version bump only for package @0x-lerna-fork/filter-options
 
 
 
@@ -136,7 +136,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.3.2"></a>
 ## [3.3.2](https://github.com/lerna/lerna/compare/v3.3.1...v3.3.2) (2018-09-12)
 
-**Note:** Version bump only for package @lerna/filter-options
+**Note:** Version bump only for package @0x-lerna-fork/filter-options
 
 
 
@@ -145,7 +145,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.3.0"></a>
 # [3.3.0](https://github.com/lerna/lerna/compare/v3.2.1...v3.3.0) (2018-09-06)
 
-**Note:** Version bump only for package @lerna/filter-options
+**Note:** Version bump only for package @0x-lerna-fork/filter-options
 
 
 
@@ -179,7 +179,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/lerna/lerna/compare/v3.0.0-rc.0...v3.0.0) (2018-08-10)
 
-**Note:** Version bump only for package @lerna/filter-options
+**Note:** Version bump only for package @0x-lerna-fork/filter-options
 
 
 
@@ -227,7 +227,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* Replace @lerna/match-package-name with multimatch ([423f82c](https://github.com/lerna/lerna/commit/423f82c))
+* Replace @0x-lerna-fork/match-package-name with multimatch ([423f82c](https://github.com/lerna/lerna/commit/423f82c))
 
 
 

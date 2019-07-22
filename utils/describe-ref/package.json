@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/describe-ref",
+  "name": "@0x-lerna-fork/describe-ref",
   "version": "3.14.2",
   "description": "Parse git describe output for lerna-related tags",
   "keywords": [
@@ -30,7 +30,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/child-process": "file:../../core/child-process",
+    "@0x-lerna-fork/child-process": "file:../../core/child-process",
     "npmlog": "^4.1.2"
   }
 }

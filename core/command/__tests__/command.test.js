@@ -8,16 +8,16 @@ const path = require("path");
 const tempy = require("tempy");
 
 // partially mocked
-const ChildProcessUtilities = require("@lerna/child-process");
+const ChildProcessUtilities = require("@0x-lerna-fork/child-process");
 const os = require("os");
 
 // normalize concurrency across different environments (localhost, CI, etc)
 jest.spyOn(os, "cpus").mockImplementation(() => new Array(42));
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const loggingOutput = require("@lerna-test/logging-output");
-const updateLernaConfig = require("@lerna-test/update-lerna-config");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const loggingOutput = require("@0x-lerna-fork/logging-output");
+const updateLernaConfig = require("@0x-lerna-fork/update-lerna-config");
 
 // file under test
 const Command = require("..");

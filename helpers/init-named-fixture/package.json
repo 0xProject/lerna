@@ -1,15 +1,15 @@
 {
-  "name": "@lerna-test/init-named-fixture",
+  "name": "@0x-lerna-fork/init-named-fixture",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "@lerna-test/copy-fixture": "file:../copy-fixture",
-    "@lerna-test/git-add": "file:../git-add",
-    "@lerna-test/git-commit": "file:../git-commit",
-    "@lerna-test/git-init": "file:../git-init",
+    "@0x-lerna-fork/copy-fixture": "file:../copy-fixture",
+    "@0x-lerna-fork/git-add": "file:../git-add",
+    "@0x-lerna-fork/git-commit": "file:../git-commit",
+    "@0x-lerna-fork/git-init": "file:../git-init",
     "tempy": "^0.2.1",
     "fs-extra": "^8.1.0"
   }

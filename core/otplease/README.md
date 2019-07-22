@@ -1,4 +1,4 @@
-# `@lerna/otplease`
+# `@0x-lerna-fork/otplease`
 
 > Prompt for OTP when wrapped Promise fails
 

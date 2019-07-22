@@ -4,8 +4,8 @@ const chalk = require("chalk");
 const tempy = require("tempy");
 const Tacks = require("tacks");
 
-const Project = require("@lerna/project");
-const loggingOutput = require("@lerna-test/logging-output");
+const Project = require("@0x-lerna-fork/project");
+const loggingOutput = require("@0x-lerna-fork/logging-output");
 const listable = require("..");
 
 const { File, Dir } = Tacks;
@@ -25,8 +25,8 @@ expect.addSnapshotSerializer({
 });
 
 // normalize temp directory paths in snapshots
-expect.addSnapshotSerializer(require("@lerna-test/serialize-windows-paths"));
-expect.addSnapshotSerializer(require("@lerna-test/serialize-tempdir"));
+expect.addSnapshotSerializer(require("@0x-lerna-fork/serialize-windows-paths"));
+expect.addSnapshotSerializer(require("@0x-lerna-fork/serialize-tempdir"));
 
 describe("listable.format()", () => {
   let packages;

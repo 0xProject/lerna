@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.16.0](https://github.com/lerna/lerna/compare/v3.15.0...v3.16.0) (2019-07-18)
 
-**Note:** Version bump only for package @lerna/batch-packages
+**Note:** Version bump only for package @0x-lerna-fork/batch-packages
 
 
 
@@ -48,7 +48,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.10.6](https://github.com/lerna/lerna/compare/v3.10.5...v3.10.6) (2019-01-19)
 
-**Note:** Version bump only for package @lerna/batch-packages
+**Note:** Version bump only for package @0x-lerna-fork/batch-packages
 
 
 
@@ -56,7 +56,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.10.0](https://github.com/lerna/lerna/compare/v3.9.1...v3.10.0) (2019-01-08)
 
-**Note:** Version bump only for package @lerna/batch-packages
+**Note:** Version bump only for package @0x-lerna-fork/batch-packages
 
 
 
@@ -76,7 +76,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.1.2"></a>
 ## [3.1.2](https://github.com/lerna/lerna/compare/v3.1.1...v3.1.2) (2018-08-20)
 
-**Note:** Version bump only for package @lerna/batch-packages
+**Note:** Version bump only for package @0x-lerna-fork/batch-packages
 
 
 
@@ -85,7 +85,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/lerna/lerna/compare/v3.0.0-rc.0...v3.0.0) (2018-08-10)
 
-**Note:** Version bump only for package @lerna/batch-packages
+**Note:** Version bump only for package @0x-lerna-fork/batch-packages
 
 
 
@@ -94,7 +94,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-rc.0"></a>
 # [3.0.0-rc.0](https://github.com/lerna/lerna/compare/v3.0.0-beta.21...v3.0.0-rc.0) (2018-07-27)
 
-**Note:** Version bump only for package @lerna/batch-packages
+**Note:** Version bump only for package @0x-lerna-fork/batch-packages
 
 
 
@@ -103,7 +103,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.18"></a>
 # [3.0.0-beta.18](https://github.com/lerna/lerna/compare/v3.0.0-beta.17...v3.0.0-beta.18) (2018-04-24)
 
-**Note:** Version bump only for package @lerna/batch-packages
+**Note:** Version bump only for package @0x-lerna-fork/batch-packages
 
 
 
@@ -112,7 +112,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.14"></a>
 # [3.0.0-beta.14](https://github.com/lerna/lerna/compare/v3.0.0-beta.13...v3.0.0-beta.14) (2018-04-03)
 
-**Note:** Version bump only for package @lerna/batch-packages
+**Note:** Version bump only for package @0x-lerna-fork/batch-packages
 
 
 
@@ -121,7 +121,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.11"></a>
 # [3.0.0-beta.11](https://github.com/lerna/lerna/compare/v3.0.0-beta.10...v3.0.0-beta.11) (2018-03-29)
 
-**Note:** Version bump only for package @lerna/batch-packages
+**Note:** Version bump only for package @0x-lerna-fork/batch-packages
 
 
 
@@ -130,7 +130,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.10"></a>
 # [3.0.0-beta.10](https://github.com/lerna/lerna/compare/v3.0.0-beta.9...v3.0.0-beta.10) (2018-03-27)
 
-**Note:** Version bump only for package @lerna/batch-packages
+**Note:** Version bump only for package @0x-lerna-fork/batch-packages
 
 
 
@@ -139,4 +139,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.1"></a>
 # [3.0.0-beta.1](https://github.com/lerna/lerna/compare/v3.0.0-beta.0...v3.0.0-beta.1) (2018-03-09)
 
-**Note:** Version bump only for package @lerna/batch-packages
+**Note:** Version bump only for package @0x-lerna-fork/batch-packages

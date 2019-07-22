@@ -1,8 +1,8 @@
 "use strict";
 
 const normalizeNewline = require("normalize-newline");
-const serializeTempdir = require("@lerna-test/serialize-tempdir");
-const serializeWindowsPaths = require("@lerna-test/serialize-windows-paths");
+const serializeTempdir = require("@0x-lerna-fork/serialize-tempdir");
+const serializeWindowsPaths = require("@0x-lerna-fork/serialize-windows-paths");
 // eslint-disable-next-line node/no-unpublished-require
 const LERNA_VERSION = require("../../core/lerna/package.json").version;
 

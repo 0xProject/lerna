@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/query-graph",
+  "name": "@0x-lerna-fork/query-graph",
   "version": "3.16.0",
   "description": "An internal Lerna tool",
   "keywords": [
@@ -31,7 +31,7 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/package-graph": "file:../../core/package-graph",
+    "@0x-lerna-fork/package-graph": "file:../../core/package-graph",
     "figgy-pudding": "^3.5.1"
   }
 }

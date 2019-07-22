@@ -1,4 +1,4 @@
-# `@lerna/npm-dist-tag`
+# `@0x-lerna-fork/npm-dist-tag`
 
 > An internal Lerna tool
 

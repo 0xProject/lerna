@@ -12,10 +12,10 @@ const path = require("path");
 const writePkg = require("write-pkg");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
+const initFixture = require("@0x-lerna-fork/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
 
 // test command
-const lernaVersion = require("@lerna-test/command-runner")(require("../command"));
+const lernaVersion = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 describe("git-hosted sibling specifiers", () => {
   test("gitCommittish", async () => {

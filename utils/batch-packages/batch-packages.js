@@ -1,7 +1,7 @@
 "use strict";
 
 const log = require("npmlog");
-const PackageGraph = require("@lerna/package-graph");
+const PackageGraph = require("@0x-lerna-fork/package-graph");
 
 module.exports = batchPackages;
 

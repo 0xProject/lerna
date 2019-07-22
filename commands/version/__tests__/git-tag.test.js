@@ -1,8 +1,8 @@
 "use strict";
 
-jest.mock("@lerna/child-process");
+jest.mock("@0x-lerna-fork/child-process");
 
-const { exec: mockExec } = require("@lerna/child-process");
+const { exec: mockExec } = require("@0x-lerna-fork/child-process");
 const gitTag = require("../lib/git-tag");
 
 describe("gitTag", () => {

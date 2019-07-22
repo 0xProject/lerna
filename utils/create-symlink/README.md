@@ -1,4 +1,4 @@
-# `@lerna/create-symlink`
+# `@0x-lerna-fork/create-symlink`
 
 > An internal Lerna tool
 

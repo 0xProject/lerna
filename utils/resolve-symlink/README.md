@@ -1,4 +1,4 @@
-# `@lerna/resolve-symlink`
+# `@0x-lerna-fork/resolve-symlink`
 
 > An internal Lerna tool
 

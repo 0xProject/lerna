@@ -1,4 +1,4 @@
-# `@lerna/bootstrap`
+# `@0x-lerna-fork/bootstrap`
 
 > Link local packages together and install remaining package dependencies
 
@@ -20,7 +20,7 @@ When run, this command will:
 3. `npm run prepublish` in all bootstrapped packages (unless `--ignore-prepublish` is passed).
 4. `npm run prepare` in all bootstrapped packages.
 
-`lerna bootstrap` respects the `--ignore`, `--scope` and `--include-filtered-dependencies` flags (see [Filter Flags](https://www.npmjs.com/package/@lerna/filter-options)).
+`lerna bootstrap` respects the `--ignore`, `--scope` and `--include-filtered-dependencies` flags (see [Filter Flags](https://www.npmjs.com/package/@0x-lerna-fork/filter-options)).
 
 Pass extra arguments to npm client by placing them after `--`:
 

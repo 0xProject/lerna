@@ -1,4 +1,4 @@
-# `@lerna/filter-packages`
+# `@0x-lerna-fork/filter-packages`
 
 > An internal Lerna tool
 

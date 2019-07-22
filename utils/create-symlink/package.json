@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/create-symlink",
+  "name": "@0x-lerna-fork/create-symlink",
   "version": "3.16.0",
   "description": "An internal Lerna tool",
   "keywords": [

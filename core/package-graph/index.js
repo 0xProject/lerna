@@ -4,8 +4,8 @@ const npa = require("npm-package-arg");
 const semver = require("semver");
 const log = require("npmlog");
 
-const ValidationError = require("@lerna/validation-error");
-const prereleaseIdFromVersion = require("@lerna/prerelease-id-from-version");
+const ValidationError = require("@0x-lerna-fork/validation-error");
+const prereleaseIdFromVersion = require("@0x-lerna-fork/prerelease-id-from-version");
 
 /**
  * Represents a node in a PackageGraph.

@@ -10,16 +10,16 @@ const pReduce = require("p-reduce");
 const pWaterfall = require("p-waterfall");
 const semver = require("semver");
 
-const Command = require("@lerna/command");
-const ConventionalCommitUtilities = require("@lerna/conventional-commits");
-const checkWorkingTree = require("@lerna/check-working-tree");
-const PromptUtilities = require("@lerna/prompt");
-const output = require("@lerna/output");
-const collectUpdates = require("@lerna/collect-updates");
-const { createRunner } = require("@lerna/run-lifecycle");
-const runTopologically = require("@lerna/run-topologically");
-const ValidationError = require("@lerna/validation-error");
-const prereleaseIdFromVersion = require("@lerna/prerelease-id-from-version");
+const Command = require("@0x-lerna-fork/command");
+const ConventionalCommitUtilities = require("@0x-lerna-fork/conventional-commits");
+const checkWorkingTree = require("@0x-lerna-fork/check-working-tree");
+const PromptUtilities = require("@0x-lerna-fork/prompt");
+const output = require("@0x-lerna-fork/output");
+const collectUpdates = require("@0x-lerna-fork/collect-updates");
+const { createRunner } = require("@0x-lerna-fork/run-lifecycle");
+const runTopologically = require("@0x-lerna-fork/run-topologically");
+const ValidationError = require("@0x-lerna-fork/validation-error");
+const prereleaseIdFromVersion = require("@0x-lerna-fork/prerelease-id-from-version");
 
 const getCurrentBranch = require("./lib/get-current-branch");
 const gitAdd = require("./lib/git-add");

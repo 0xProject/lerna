@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/listable",
+  "name": "@0x-lerna-fork/listable",
   "version": "3.16.0",
   "description": "Shared logic for listing package information",
   "keywords": [
@@ -29,7 +29,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/query-graph": "file:../query-graph",
+    "@0x-lerna-fork/query-graph": "file:../query-graph",
     "chalk": "^2.3.1",
     "columnify": "^1.5.4"
   }

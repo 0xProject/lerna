@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/otplease",
+  "name": "@0x-lerna-fork/otplease",
   "version": "3.16.0",
   "description": "Prompt for OTP when wrapped Promise fails",
   "keywords": [
@@ -31,7 +31,7 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/prompt": "file:../prompt",
+    "@0x-lerna-fork/prompt": "file:../prompt",
     "figgy-pudding": "^3.5.1"
   }
 }

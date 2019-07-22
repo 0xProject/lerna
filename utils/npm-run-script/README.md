@@ -1,4 +1,4 @@
-# `@lerna/npm-run-script`
+# `@0x-lerna-fork/npm-run-script`
 
 > An internal Lerna tool
 

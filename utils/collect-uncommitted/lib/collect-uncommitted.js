@@ -3,7 +3,7 @@
 const chalk = require("chalk");
 const figgyPudding = require("figgy-pudding");
 const npmlog = require("npmlog");
-const { exec, execSync } = require("@lerna/child-process");
+const { exec, execSync } = require("@0x-lerna-fork/child-process");
 
 module.exports = collectUncommitted;
 module.exports.sync = sync;

@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/npm-dist-tag",
+  "name": "@0x-lerna-fork/npm-dist-tag",
   "version": "3.16.0",
   "description": "An internal Lerna tool",
   "keywords": [
@@ -33,7 +33,7 @@
   },
   "dependencies": {
     "@evocateur/npm-registry-fetch": "^4.0.0",
-    "@lerna/otplease": "file:../../core/otplease",
+    "@0x-lerna-fork/otplease": "file:../../core/otplease",
     "figgy-pudding": "^3.5.1",
     "npm-package-arg": "^6.1.0",
     "npmlog": "^4.1.2"

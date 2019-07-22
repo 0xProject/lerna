@@ -3,7 +3,7 @@
 const dedent = require("dedent");
 const log = require("npmlog");
 const yargs = require("yargs/yargs");
-const globalOptions = require("@lerna/global-options");
+const globalOptions = require("@0x-lerna-fork/global-options");
 
 module.exports = lernaCLI;
 

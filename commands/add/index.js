@@ -7,11 +7,11 @@ const path = require("path");
 const getManifest = require("@evocateur/pacote/manifest");
 const semver = require("semver");
 
-const Command = require("@lerna/command");
-const npmConf = require("@lerna/npm-conf");
-const bootstrap = require("@lerna/bootstrap");
-const ValidationError = require("@lerna/validation-error");
-const { getFilteredPackages } = require("@lerna/filter-options");
+const Command = require("@0x-lerna-fork/command");
+const npmConf = require("@0x-lerna-fork/npm-conf");
+const bootstrap = require("@0x-lerna-fork/bootstrap");
+const ValidationError = require("@0x-lerna-fork/validation-error");
+const { getFilteredPackages } = require("@0x-lerna-fork/filter-options");
 const getRangeToReference = require("./lib/get-range-to-reference");
 
 module.exports = factory;

@@ -1,4 +1,4 @@
-# `@lerna/query-graph`
+# `@0x-lerna-fork/query-graph`
 
 > An internal Lerna tool
 

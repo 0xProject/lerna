@@ -1,4 +1,4 @@
-# `@lerna/collect-updates`
+# `@0x-lerna-fork/collect-updates`
 
 > An internal Lerna tool
 

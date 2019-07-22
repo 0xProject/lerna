@@ -1,8 +1,8 @@
 "use strict";
 
 // helpers
-const Package = require("@lerna/package");
-const PackageGraph = require("@lerna/package-graph");
+const Package = require("@0x-lerna-fork/package");
+const PackageGraph = require("@0x-lerna-fork/package-graph");
 
 module.exports = buildGraph;
 

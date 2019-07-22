@@ -1,6 +1,6 @@
 "use strict";
 
-const filterable = require("@lerna/filter-options");
+const filterable = require("@0x-lerna-fork/filter-options");
 
 /**
  * @see https://github.com/yargs/yargs/blob/master/docs/advanced.md#providing-a-command-module

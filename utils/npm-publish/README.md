@@ -1,4 +1,4 @@
-# `@lerna/npm-publish`
+# `@0x-lerna-fork/npm-publish`
 
 > An internal Lerna tool
 

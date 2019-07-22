@@ -1,6 +1,6 @@
 "use strict";
 
-jest.mock("@lerna/otplease");
+jest.mock("@0x-lerna-fork/otplease");
 
 // local modules _must_ be explicitly mocked
 jest.mock("../lib/get-packages-without-license");
@@ -15,25 +15,25 @@ jest.mock("../../version/lib/is-behind-upstream");
 jest.mock("../../version/lib/remote-branch-exists");
 
 // mocked or stubbed modules
-const otplease = require("@lerna/otplease");
-const npmDistTag = require("@lerna/npm-dist-tag");
-const npmPublish = require("@lerna/npm-publish");
-const packDirectory = require("@lerna/pack-directory");
-const PromptUtilities = require("@lerna/prompt");
-const collectUpdates = require("@lerna/collect-updates");
+const otplease = require("@0x-lerna-fork/otplease");
+const npmDistTag = require("@0x-lerna-fork/npm-dist-tag");
+const npmPublish = require("@0x-lerna-fork/npm-publish");
+const packDirectory = require("@0x-lerna-fork/pack-directory");
+const PromptUtilities = require("@0x-lerna-fork/prompt");
+const collectUpdates = require("@0x-lerna-fork/collect-updates");
 const getNpmUsername = require("../lib/get-npm-username");
 const verifyNpmPackageAccess = require("../lib/verify-npm-package-access");
 const getTwoFactorAuthRequired = require("../lib/get-two-factor-auth-required");
 
 // helpers
-const commitChangeToPackage = require("@lerna-test/commit-change-to-package");
-const loggingOutput = require("@lerna-test/logging-output");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const commitChangeToPackage = require("@0x-lerna-fork/commit-change-to-package");
+const loggingOutput = require("@0x-lerna-fork/logging-output");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
 
 // file under test
-const lernaPublish = require("@lerna-test/command-runner")(require("../command"));
+const lernaPublish = require("@0x-lerna-fork/command-runner")(require("../command"));
 
-expect.extend(require("@lerna-test/figgy-pudding-matchers"));
+expect.extend(require("@0x-lerna-fork/figgy-pudding-matchers"));
 
 describe("PublishCommand", () => {
   describe("cli validation", () => {
@@ -135,7 +135,7 @@ Map {
 
       expect(getTwoFactorAuthRequired).toHaveBeenCalled();
       expect(getTwoFactorAuthRequired).toHaveBeenLastCalledWith(
-        // extra insurance that @lerna/npm-conf is defaulting things correctly
+        // extra insurance that @0x-lerna-fork/npm-conf is defaulting things correctly
         expect.figgyPudding({ otp: undefined })
       );
     });

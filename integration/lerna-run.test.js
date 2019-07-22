@@ -1,7 +1,7 @@
 "use strict";
 
-const cliRunner = require("@lerna-test/cli-runner");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const cliRunner = require("@0x-lerna-fork/cli-runner");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
 
 const env = {
   // Hush timing information

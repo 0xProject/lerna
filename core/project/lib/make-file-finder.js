@@ -3,7 +3,7 @@
 const globby = require("globby");
 const pMap = require("p-map");
 const path = require("path");
-const ValidationError = require("@lerna/validation-error");
+const ValidationError = require("@0x-lerna-fork/validation-error");
 
 module.exports = makeFileFinder;
 

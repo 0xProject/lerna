@@ -1,4 +1,4 @@
-# `@lerna/pack-directory`
+# `@0x-lerna-fork/pack-directory`
 
 > Pack a directory into an npm package tarball
 

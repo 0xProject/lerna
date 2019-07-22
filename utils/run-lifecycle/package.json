@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/run-lifecycle",
+  "name": "@0x-lerna-fork/run-lifecycle",
   "version": "3.16.0",
   "description": "An internal Lerna tool",
   "keywords": [
@@ -31,7 +31,7 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/npm-conf": "file:../npm-conf",
+    "@0x-lerna-fork/npm-conf": "file:../npm-conf",
     "figgy-pudding": "^3.5.1",
     "npm-lifecycle": "^3.1.0",
     "npmlog": "^4.1.2"

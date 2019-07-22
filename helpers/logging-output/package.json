@@ -1,12 +1,12 @@
 {
-  "name": "@lerna-test/logging-output",
+  "name": "@0x-lerna-fork/logging-output",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "@lerna-test/multi-line-trim-right": "file:../multi-line-trim-right",
+    "@0x-lerna-fork/multi-line-trim-right": "file:../multi-line-trim-right",
     "npmlog": "^4.1.2"
   }
 }

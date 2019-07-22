@@ -10,14 +10,14 @@ jest.mock("../lib/is-behind-upstream");
 jest.mock("../lib/remote-branch-exists");
 
 // mocked modules
-const client = require("@lerna/gitlab-client")();
-const { recommendVersion } = require("@lerna/conventional-commits");
+const client = require("@0x-lerna-fork/gitlab-client")();
+const { recommendVersion } = require("@0x-lerna-fork/conventional-commits");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
 
 // test command
-const lernaVersion = require("@lerna-test/command-runner")(require("../command"));
+const lernaVersion = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 test("--create-release=gitlab does not create a release if --no-push is passed", async () => {
   const cwd = await initFixture("independent");

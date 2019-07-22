@@ -36,7 +36,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.14.2](https://github.com/lerna/lerna/compare/v3.14.1...v3.14.2) (2019-06-09)
 
-**Note:** Version bump only for package @lerna/project
+**Note:** Version bump only for package @0x-lerna-fork/project
 
 
 
@@ -79,7 +79,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.10.0](https://github.com/lerna/lerna/compare/v3.9.1...v3.10.0) (2019-01-08)
 
-**Note:** Version bump only for package @lerna/project
+**Note:** Version bump only for package @0x-lerna-fork/project
 
 
 
@@ -99,7 +99,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.7.2](https://github.com/lerna/lerna/compare/v3.7.1...v3.7.2) (2018-12-21)
 
-**Note:** Version bump only for package @lerna/project
+**Note:** Version bump only for package @0x-lerna-fork/project
 
 
 
@@ -107,7 +107,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.7.0](https://github.com/lerna/lerna/compare/v3.6.0...v3.7.0) (2018-12-19)
 
-**Note:** Version bump only for package @lerna/project
+**Note:** Version bump only for package @0x-lerna-fork/project
 
 
 
@@ -206,7 +206,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.17"></a>
 # [3.0.0-beta.17](https://github.com/lerna/lerna/compare/v3.0.0-beta.16...v3.0.0-beta.17) (2018-04-13)
 
-**Note:** Version bump only for package @lerna/project
+**Note:** Version bump only for package @0x-lerna-fork/project
 
 
 
@@ -247,7 +247,7 @@ available to modify the internal representation.
 <a name="3.0.0-beta.11"></a>
 # [3.0.0-beta.11](https://github.com/lerna/lerna/compare/v3.0.0-beta.10...v3.0.0-beta.11) (2018-03-29)
 
-**Note:** Version bump only for package @lerna/project
+**Note:** Version bump only for package @0x-lerna-fork/project
 
 
 

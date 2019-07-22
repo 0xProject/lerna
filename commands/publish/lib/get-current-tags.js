@@ -2,7 +2,7 @@
 
 const log = require("npmlog");
 const npa = require("npm-package-arg");
-const childProcess = require("@lerna/child-process");
+const childProcess = require("@0x-lerna-fork/child-process");
 
 module.exports = getCurrentTags;
 

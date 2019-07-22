@@ -3,10 +3,10 @@
 const path = require("path");
 const fs = require("fs-extra");
 const tempy = require("tempy");
-const copyFixture = require("@lerna-test/copy-fixture");
-const gitAdd = require("@lerna-test/git-add");
-const gitCommit = require("@lerna-test/git-commit");
-const gitInit = require("@lerna-test/git-init");
+const copyFixture = require("@0x-lerna-fork/copy-fixture");
+const gitAdd = require("@0x-lerna-fork/git-add");
+const gitCommit = require("@0x-lerna-fork/git-commit");
+const gitInit = require("@0x-lerna-fork/git-init");
 
 module.exports = initNamedFixture;
 

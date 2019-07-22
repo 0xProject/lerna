@@ -2,19 +2,19 @@
 
 const fs = require("fs-extra");
 const path = require("path");
-const { getPackages } = require("@lerna/project");
+const { getPackages } = require("@0x-lerna-fork/project");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const gitAdd = require("@lerna-test/git-add");
-const gitCommit = require("@lerna-test/git-commit");
-const gitTag = require("@lerna-test/git-tag");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const gitAdd = require("@0x-lerna-fork/git-add");
+const gitCommit = require("@0x-lerna-fork/git-commit");
+const gitTag = require("@0x-lerna-fork/git-tag");
 
 // file under test
 const { recommendVersion, updateChangelog } = require("..");
 
 // stabilize changelog commit SHA and datestamp
-expect.addSnapshotSerializer(require("@lerna-test/serialize-changelog"));
+expect.addSnapshotSerializer(require("@0x-lerna-fork/serialize-changelog"));
 
 describe("conventional-commits", () => {
   describe("recommendVersion()", () => {

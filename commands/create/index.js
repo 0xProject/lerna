@@ -12,10 +12,10 @@ const npa = require("npm-package-arg");
 const pReduce = require("p-reduce");
 const slash = require("slash");
 
-const Command = require("@lerna/command");
-const ChildProcessUtilities = require("@lerna/child-process");
-const npmConf = require("@lerna/npm-conf");
-const ValidationError = require("@lerna/validation-error");
+const Command = require("@0x-lerna-fork/command");
+const ChildProcessUtilities = require("@0x-lerna-fork/child-process");
+const npmConf = require("@0x-lerna-fork/npm-conf");
+const ValidationError = require("@0x-lerna-fork/validation-error");
 const builtinNpmrc = require("./lib/builtin-npmrc");
 const catFile = require("./lib/cat-file");
 

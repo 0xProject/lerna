@@ -1,4 +1,4 @@
-# `@lerna/add`
+# `@0x-lerna-fork/add`
 
 > Add a dependency to matched packages
 
@@ -21,7 +21,7 @@ If no `version` specifier is provided, it defaults to the `latest` dist-tag, jus
 
 ## Options
 
-`lerna add` respects the `--ignore`, `--scope` and `--include-filtered-dependencies` flags (see [Filter Flags](https://www.npmjs.com/package/@lerna/filter-options)).
+`lerna add` respects the `--ignore`, `--scope` and `--include-filtered-dependencies` flags (see [Filter Flags](https://www.npmjs.com/package/@0x-lerna-fork/filter-options)).
 
 ### `--dev`
 

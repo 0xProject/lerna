@@ -1,5 +1,5 @@
 {
-  "name": "@lerna-test/get-commit-message",
+  "name": "@0x-lerna-fork/get-commit-message",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",

@@ -1,18 +1,18 @@
 "use strict";
 
-jest.mock("@lerna/npm-run-script");
+jest.mock("@0x-lerna-fork/npm-run-script");
 
 // mocked modules
-const npmRunScript = require("@lerna/npm-run-script");
-const output = require("@lerna/output");
+const npmRunScript = require("@0x-lerna-fork/npm-run-script");
+const output = require("@0x-lerna-fork/output");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const loggingOutput = require("@lerna-test/logging-output");
-const normalizeRelativeDir = require("@lerna-test/normalize-relative-dir");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const loggingOutput = require("@0x-lerna-fork/logging-output");
+const normalizeRelativeDir = require("@0x-lerna-fork/normalize-relative-dir");
 
 // file under test
-const lernaRun = require("@lerna-test/command-runner")(require("../command"));
+const lernaRun = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 // assertion helpers
 const ranInPackagesStreaming = testDir =>

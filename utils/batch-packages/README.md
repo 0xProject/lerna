@@ -1,4 +1,4 @@
-# `@lerna/batch-packages`
+# `@0x-lerna-fork/batch-packages`
 
 > An internal Lerna tool
 

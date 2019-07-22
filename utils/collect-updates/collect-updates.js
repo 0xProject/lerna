@@ -1,7 +1,7 @@
 "use strict";
 
 const log = require("npmlog");
-const describeRef = require("@lerna/describe-ref");
+const describeRef = require("@0x-lerna-fork/describe-ref");
 
 const hasTags = require("./lib/has-tags");
 const collectPackages = require("./lib/collect-packages");

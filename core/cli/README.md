@@ -1,4 +1,4 @@
-# `@lerna/cli`
+# `@0x-lerna-fork/cli`
 
 > Lerna's CLI
 

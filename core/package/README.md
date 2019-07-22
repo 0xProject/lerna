@@ -1,4 +1,4 @@
-# `@lerna/package`
+# `@0x-lerna-fork/package`
 
 > Lerna's internal representation of a package
 

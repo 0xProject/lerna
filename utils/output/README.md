@@ -1,4 +1,4 @@
-# `@lerna/output`
+# `@0x-lerna-fork/output`
 
 > An internal Lerna tool
 

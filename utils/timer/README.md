@@ -1,4 +1,4 @@
-# `@lerna/timer`
+# `@0x-lerna-fork/timer`
 
 > An internal Lerna tool
 

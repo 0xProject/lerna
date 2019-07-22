@@ -15,7 +15,7 @@ const { equals } = require("expect/build/jasmineUtils.js");
 /**
  * Jest matchers for figgy-pudding instances
  *
- *    expect.extend(require("@lerna-test/figgy-pudding-matchers"))
+ *    expect.extend(require("@0x-lerna-fork/figgy-pudding-matchers"))
  */
 exports.toBeFiggyPudding = toBeFiggyPudding;
 exports.toHaveFiggyPudding = toHaveFiggyPudding;

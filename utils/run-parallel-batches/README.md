@@ -1,4 +1,4 @@
-# `@lerna/run-parallel-batches`
+# `@0x-lerna-fork/run-parallel-batches`
 
 > An internal Lerna tool
 

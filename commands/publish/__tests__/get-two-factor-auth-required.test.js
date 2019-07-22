@@ -2,13 +2,13 @@
 
 jest.mock("../lib/get-profile-data");
 
-const loggingOutput = require("@lerna-test/logging-output");
+const loggingOutput = require("@0x-lerna-fork/logging-output");
 const getProfileData = require("../lib/get-profile-data");
 const getTwoFactorAuthRequired = require("../lib/get-two-factor-auth-required");
 
 getProfileData.mockImplementation(() => Promise.resolve({ tfa: {} }));
 
-expect.extend(require("@lerna-test/figgy-pudding-matchers"));
+expect.extend(require("@0x-lerna-fork/figgy-pudding-matchers"));
 
 describe("getTwoFactorAuthRequired", () => {
   const origConsoleError = console.error;

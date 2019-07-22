@@ -9,14 +9,14 @@ jest.mock("../lib/remote-branch-exists");
 const path = require("path");
 
 // mocked modules
-const PromptUtilities = require("@lerna/prompt");
+const PromptUtilities = require("@0x-lerna-fork/prompt");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
-const getCommitMessage = require("@lerna-test/get-commit-message");
+const initFixture = require("@0x-lerna-fork/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
+const getCommitMessage = require("@0x-lerna-fork/get-commit-message");
 
 // test command
-const lernaVersion = require("@lerna-test/command-runner")(require("../command"));
+const lernaVersion = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 describe("version bump", () => {
   it("accepts explicit versions", async () => {

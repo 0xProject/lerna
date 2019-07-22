@@ -3,10 +3,10 @@
 const fs = require("fs-extra");
 const path = require("path");
 
-const cliRunner = require("@lerna-test/cli-runner");
-const gitAdd = require("@lerna-test/git-add");
-const gitCommit = require("@lerna-test/git-commit");
-const cloneFixture = require("@lerna-test/clone-fixture")(
+const cliRunner = require("@0x-lerna-fork/cli-runner");
+const gitAdd = require("@0x-lerna-fork/git-add");
+const gitCommit = require("@0x-lerna-fork/git-commit");
+const cloneFixture = require("@0x-lerna-fork/clone-fixture")(
   path.resolve(__dirname, "../commands/publish/__tests__")
 );
 

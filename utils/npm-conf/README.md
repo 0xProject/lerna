@@ -1,4 +1,4 @@
-# `@lerna/npm-conf`
+# `@0x-lerna-fork/npm-conf`
 
 > Vendored npm-conf with updates
 

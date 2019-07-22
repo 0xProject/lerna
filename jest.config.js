@@ -13,7 +13,7 @@ module.exports = {
   ],
   modulePathIgnorePatterns: ["/__fixtures__/"],
   roots: ["<rootDir>/commands", "<rootDir>/core", "<rootDir>/utils"],
-  setupFiles: ["@lerna-test/silence-logging", "@lerna-test/set-npm-userconfig"],
+  setupFiles: ["@0x-lerna-fork/silence-logging", "@0x-lerna-fork/set-npm-userconfig"],
   setupFilesAfterEnv: ["<rootDir>/setup-unit-test-timeout.js"],
   testEnvironment: "node",
   testRunner: "jest-circus/runner",

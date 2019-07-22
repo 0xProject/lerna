@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/symlink-binary",
+  "name": "@0x-lerna-fork/symlink-binary",
   "version": "3.16.0",
   "description": "An internal Lerna tool",
   "keywords": [
@@ -31,8 +31,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/create-symlink": "file:../create-symlink",
-    "@lerna/package": "file:../../core/package",
+    "@0x-lerna-fork/create-symlink": "file:../create-symlink",
+    "@0x-lerna-fork/package": "file:../../core/package",
     "fs-extra": "^8.1.0",
     "p-map": "^2.1.0"
   }

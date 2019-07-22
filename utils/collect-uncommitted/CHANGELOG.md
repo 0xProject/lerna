@@ -5,7 +5,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.14.2](https://github.com/lerna/lerna/compare/v3.14.1...v3.14.2) (2019-06-09)
 
-**Note:** Version bump only for package @lerna/collect-uncommitted
+**Note:** Version bump only for package @0x-lerna-fork/collect-uncommitted
 
 
 
@@ -28,4 +28,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * **publish:** Display uncommitted changes when validation fails ([#2066](https://github.com/lerna/lerna/issues/2066)) ([ea41fe9](https://github.com/lerna/lerna/commit/ea41fe9))
-* Create `@lerna/collect-uncommitted`
+* Create `@0x-lerna-fork/collect-uncommitted`

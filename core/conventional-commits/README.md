@@ -1,4 +1,4 @@
-# `@lerna/conventional-commits`
+# `@0x-lerna-fork/conventional-commits`
 
 > Lerna's internal interface to conventional-changelog and friends
 

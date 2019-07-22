@@ -1,6 +1,6 @@
 "use strict";
 
-const { collectPackages, getPackagesForOption } = jest.requireActual("@lerna/collect-updates");
+const { collectPackages, getPackagesForOption } = jest.requireActual("@0x-lerna-fork/collect-updates");
 
 // collectUpdates.setUpdated(cwd, packageNames...)
 // otherwise, enables everything

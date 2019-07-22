@@ -1,6 +1,6 @@
 "use strict";
 
-// expect.addSnapshotSerializer(require("@lerna-test/serialize-git-sha"));
+// expect.addSnapshotSerializer(require("@0x-lerna-fork/serialize-git-sha"));
 module.exports = {
   serialize(str) {
     return (

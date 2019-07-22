@@ -17,7 +17,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.14.2](https://github.com/lerna/lerna/compare/v3.14.1...v3.14.2) (2019-06-09)
 
-**Note:** Version bump only for package @lerna/symlink-dependencies
+**Note:** Version bump only for package @0x-lerna-fork/symlink-dependencies
 
 
 
@@ -25,7 +25,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.14.0](https://github.com/lerna/lerna/compare/v3.13.4...v3.14.0) (2019-05-14)
 
-**Note:** Version bump only for package @lerna/symlink-dependencies
+**Note:** Version bump only for package @0x-lerna-fork/symlink-dependencies
 
 
 
@@ -45,7 +45,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.11.0](https://github.com/lerna/lerna/compare/v3.10.8...v3.11.0) (2019-02-08)
 
-**Note:** Version bump only for package @lerna/symlink-dependencies
+**Note:** Version bump only for package @0x-lerna-fork/symlink-dependencies
 
 
 
@@ -53,7 +53,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.10.0](https://github.com/lerna/lerna/compare/v3.9.1...v3.10.0) (2019-01-08)
 
-**Note:** Version bump only for package @lerna/symlink-dependencies
+**Note:** Version bump only for package @0x-lerna-fork/symlink-dependencies
 
 
 
@@ -61,7 +61,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.8.1](https://github.com/lerna/lerna/compare/v3.8.0...v3.8.1) (2018-12-31)
 
-**Note:** Version bump only for package @lerna/symlink-dependencies
+**Note:** Version bump only for package @0x-lerna-fork/symlink-dependencies
 
 
 
@@ -69,7 +69,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [3.7.2](https://github.com/lerna/lerna/compare/v3.7.1...v3.7.2) (2018-12-21)
 
-**Note:** Version bump only for package @lerna/symlink-dependencies
+**Note:** Version bump only for package @0x-lerna-fork/symlink-dependencies
 
 
 
@@ -77,7 +77,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.7.0](https://github.com/lerna/lerna/compare/v3.6.0...v3.7.0) (2018-12-19)
 
-**Note:** Version bump only for package @lerna/symlink-dependencies
+**Note:** Version bump only for package @0x-lerna-fork/symlink-dependencies
 
 
 
@@ -85,7 +85,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 # [3.6.0](https://github.com/lerna/lerna/compare/v3.5.1...v3.6.0) (2018-12-07)
 
-**Note:** Version bump only for package @lerna/symlink-dependencies
+**Note:** Version bump only for package @0x-lerna-fork/symlink-dependencies
 
 
 
@@ -106,7 +106,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.1.4"></a>
 ## [3.1.4](https://github.com/lerna/lerna/compare/v3.1.3...v3.1.4) (2018-08-21)
 
-**Note:** Version bump only for package @lerna/symlink-dependencies
+**Note:** Version bump only for package @0x-lerna-fork/symlink-dependencies
 
 
 
@@ -115,7 +115,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0"></a>
 # [3.0.0](https://github.com/lerna/lerna/compare/v3.0.0-rc.0...v3.0.0) (2018-08-10)
 
-**Note:** Version bump only for package @lerna/symlink-dependencies
+**Note:** Version bump only for package @0x-lerna-fork/symlink-dependencies
 
 
 
@@ -136,7 +136,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.17"></a>
 # [3.0.0-beta.17](https://github.com/lerna/lerna/compare/v3.0.0-beta.16...v3.0.0-beta.17) (2018-04-13)
 
-**Note:** Version bump only for package @lerna/symlink-dependencies
+**Note:** Version bump only for package @0x-lerna-fork/symlink-dependencies
 
 
 
@@ -145,7 +145,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.12"></a>
 # [3.0.0-beta.12](https://github.com/lerna/lerna/compare/v3.0.0-beta.11...v3.0.0-beta.12) (2018-03-30)
 
-**Note:** Version bump only for package @lerna/symlink-dependencies
+**Note:** Version bump only for package @0x-lerna-fork/symlink-dependencies
 
 
 
@@ -154,7 +154,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 <a name="3.0.0-beta.11"></a>
 # [3.0.0-beta.11](https://github.com/lerna/lerna/compare/v3.0.0-beta.10...v3.0.0-beta.11) (2018-03-29)
 
-**Note:** Version bump only for package @lerna/symlink-dependencies
+**Note:** Version bump only for package @0x-lerna-fork/symlink-dependencies
 
 
 
@@ -166,4 +166,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* Replace @lerna/fs-utils dependency with fs-extra ([9c35a86](https://github.com/lerna/lerna/commit/9c35a86))
+* Replace @0x-lerna-fork/fs-utils dependency with fs-extra ([9c35a86](https://github.com/lerna/lerna/commit/9c35a86))

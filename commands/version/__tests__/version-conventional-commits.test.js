@@ -11,15 +11,15 @@ const semver = require("semver");
 
 // mocked modules
 const writePkg = require("write-pkg");
-const collectUpdates = require("@lerna/collect-updates");
-const ConventionalCommitUtilities = require("@lerna/conventional-commits");
+const collectUpdates = require("@0x-lerna-fork/collect-updates");
+const ConventionalCommitUtilities = require("@0x-lerna-fork/conventional-commits");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
-const showCommit = require("@lerna-test/show-commit");
+const initFixture = require("@0x-lerna-fork/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
+const showCommit = require("@0x-lerna-fork/show-commit");
 
 // test command
-const lernaVersion = require("@lerna-test/command-runner")(require("../command"));
+const lernaVersion = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 describe("--conventional-commits", () => {
   describe("independent", () => {

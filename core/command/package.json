@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/command",
+  "name": "@0x-lerna-fork/command",
   "version": "3.16.0",
   "description": "Lerna's internal base class for commands",
   "keywords": [
@@ -32,11 +32,11 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/child-process": "file:../child-process",
-    "@lerna/package-graph": "file:../package-graph",
-    "@lerna/project": "file:../project",
-    "@lerna/validation-error": "file:../validation-error",
-    "@lerna/write-log-file": "file:../../utils/write-log-file",
+    "@0x-lerna-fork/child-process": "file:../child-process",
+    "@0x-lerna-fork/package-graph": "file:../package-graph",
+    "@0x-lerna-fork/project": "file:../project",
+    "@0x-lerna-fork/validation-error": "file:../validation-error",
+    "@0x-lerna-fork/write-log-file": "file:../../utils/write-log-file",
     "dedent": "^0.7.0",
     "execa": "^1.0.0",
     "is-ci": "^2.0.0",

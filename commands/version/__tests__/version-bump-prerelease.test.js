@@ -1,8 +1,8 @@
 "use strict";
 
 // we're actually testing integration with git
-jest.unmock("@lerna/collect-updates");
-jest.unmock("@lerna/conventional-commits");
+jest.unmock("@0x-lerna-fork/collect-updates");
+jest.unmock("@0x-lerna-fork/conventional-commits");
 
 // local modules _must_ be explicitly mocked
 jest.mock("../lib/git-push");
@@ -14,23 +14,23 @@ const fs = require("fs-extra");
 const path = require("path");
 
 // mocked modules
-const prompt = require("@lerna/prompt");
+const prompt = require("@0x-lerna-fork/prompt");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
-const showCommit = require("@lerna-test/show-commit");
-const gitInit = require("@lerna-test/git-init");
-const gitAdd = require("@lerna-test/git-add");
-const gitTag = require("@lerna-test/git-tag");
-const gitCommit = require("@lerna-test/git-commit");
-const getCommitMessage = require("@lerna-test/get-commit-message");
+const initFixture = require("@0x-lerna-fork/init-fixture")(path.resolve(__dirname, "../../publish/__tests__"));
+const showCommit = require("@0x-lerna-fork/show-commit");
+const gitInit = require("@0x-lerna-fork/git-init");
+const gitAdd = require("@0x-lerna-fork/git-add");
+const gitTag = require("@0x-lerna-fork/git-tag");
+const gitCommit = require("@0x-lerna-fork/git-commit");
+const getCommitMessage = require("@0x-lerna-fork/get-commit-message");
 const Tacks = require("tacks");
 const tempy = require("tempy");
 
 const { File, Dir } = Tacks;
 
 // test command
-const lernaVersion = require("@lerna-test/command-runner")(require("../command"));
+const lernaVersion = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 // remove quotes around top-level strings
 expect.addSnapshotSerializer({
@@ -44,7 +44,7 @@ expect.addSnapshotSerializer({
 });
 
 // stabilize commit SHA
-expect.addSnapshotSerializer(require("@lerna-test/serialize-changelog"));
+expect.addSnapshotSerializer(require("@0x-lerna-fork/serialize-changelog"));
 
 const setupChanges = async cwd => {
   await gitTag(cwd, "v1.0.1-beta.3");

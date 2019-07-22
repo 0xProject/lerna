@@ -1,4 +1,4 @@
-# `@lerna/exec`
+# `@0x-lerna-fork/exec`
 
 > Execute an arbitrary command in each package
 
@@ -29,7 +29,7 @@ $ lerna exec -- node \$LERNA_ROOT_PATH/scripts/some-script.js
 
 ## Options
 
-`lerna exec` respects the `--concurrency`, `--scope`, and `--ignore` flags (see [Filter Flags](https://www.npmjs.com/package/@lerna/filter-options)).
+`lerna exec` respects the `--concurrency`, `--scope`, and `--ignore` flags (see [Filter Flags](https://www.npmjs.com/package/@0x-lerna-fork/filter-options)).
 
 ```sh
 $ lerna exec --scope my-component -- ls -la

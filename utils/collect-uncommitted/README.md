@@ -1,11 +1,11 @@
-# `@lerna/collect-uncommitted`
+# `@0x-lerna-fork/collect-uncommitted`
 
 > Check git working tree status and collect uncommitted changes for display
 
 ## Usage
 
 ```js
-const collectUncommitted = require("@lerna/collect-uncommitted");
+const collectUncommitted = require("@0x-lerna-fork/collect-uncommitted");
 
 // values listed here are their defaults
 const options = {

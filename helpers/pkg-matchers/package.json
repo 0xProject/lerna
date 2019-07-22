@@ -1,12 +1,12 @@
 {
-  "name": "@lerna-test/pkg-matchers",
+  "name": "@0x-lerna-fork/pkg-matchers",
   "version": "0.0.0-test-only",
   "description": "A local test helper",
   "main": "index.js",
   "private": true,
   "license": "MIT",
   "dependencies": {
-    "@lerna/package": "file:../../core/package",
+    "@0x-lerna-fork/package": "file:../../core/package",
     "semver": "^6.2.0"
   }
 }

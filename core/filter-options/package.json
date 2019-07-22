@@ -1,5 +1,5 @@
 {
-  "name": "@lerna/filter-options",
+  "name": "@0x-lerna-fork/filter-options",
   "version": "3.16.0",
   "description": "Options for lerna sub-commands that need filtering",
   "keywords": [
@@ -32,8 +32,8 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@lerna/collect-updates": "file:../../utils/collect-updates",
-    "@lerna/filter-packages": "file:../../utils/filter-packages",
+    "@0x-lerna-fork/collect-updates": "file:../../utils/collect-updates",
+    "@0x-lerna-fork/filter-packages": "file:../../utils/filter-packages",
     "dedent": "^0.7.0"
   }
 }

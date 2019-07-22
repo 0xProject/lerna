@@ -1,4 +1,4 @@
-# `@lerna/symlink-binary`
+# `@0x-lerna-fork/symlink-binary`
 
 > An internal Lerna tool
 

@@ -2,8 +2,8 @@
 
 const path = require("path");
 
-const cliRunner = require("@lerna-test/cli-runner");
-const cloneFixture = require("@lerna-test/clone-fixture")(
+const cliRunner = require("@0x-lerna-fork/cli-runner");
+const cloneFixture = require("@0x-lerna-fork/clone-fixture")(
   path.resolve(__dirname, "../commands/publish/__tests__")
 );
 

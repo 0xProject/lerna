@@ -1,24 +1,24 @@
 "use strict";
 
 // we're actually testing integration with git
-jest.unmock("@lerna/collect-updates");
+jest.unmock("@0x-lerna-fork/collect-updates");
 
 const path = require("path");
 const fs = require("fs");
 
 // mocked modules
-const output = require("@lerna/output");
+const output = require("@0x-lerna-fork/output");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const gitAdd = require("@lerna-test/git-add");
-const gitCommit = require("@lerna-test/git-commit");
-const gitTag = require("@lerna-test/git-tag");
-const gitCheckout = require("@lerna-test/git-checkout");
-const gitMerge = require("@lerna-test/git-merge");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const gitAdd = require("@0x-lerna-fork/git-add");
+const gitCommit = require("@0x-lerna-fork/git-commit");
+const gitTag = require("@0x-lerna-fork/git-tag");
+const gitCheckout = require("@0x-lerna-fork/git-checkout");
+const gitMerge = require("@0x-lerna-fork/git-merge");
 
 // file under test
-const lernaVersion = require("@lerna-test/command-runner")(require("../command"));
+const lernaVersion = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 // remove quotes around top-level strings
 expect.addSnapshotSerializer({
@@ -32,8 +32,8 @@ expect.addSnapshotSerializer({
 });
 
 // normalize temp directory paths in snapshots
-expect.addSnapshotSerializer(require("@lerna-test/serialize-windows-paths"));
-expect.addSnapshotSerializer(require("@lerna-test/serialize-tempdir"));
+expect.addSnapshotSerializer(require("@0x-lerna-fork/serialize-windows-paths"));
+expect.addSnapshotSerializer(require("@0x-lerna-fork/serialize-tempdir"));
 
 describe("version --include-merged-tags", () => {
   const setupGitChangesWithBranch = async (cwd, masterPaths, branchPaths) => {

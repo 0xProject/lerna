@@ -1,21 +1,21 @@
 "use strict";
 
-jest.mock("@lerna/bootstrap");
+jest.mock("@0x-lerna-fork/bootstrap");
 jest.mock("@evocateur/pacote/manifest");
 
 // mocked or stubbed modules
-const bootstrap = require("@lerna/bootstrap");
+const bootstrap = require("@0x-lerna-fork/bootstrap");
 const getManifest = require("@evocateur/pacote/manifest");
 
 // helpers
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
-const { getPackages } = require("@lerna/project");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
+const { getPackages } = require("@0x-lerna-fork/project");
 
 // file under test
-const lernaAdd = require("@lerna-test/command-runner")(require("../command"));
+const lernaAdd = require("@0x-lerna-fork/command-runner")(require("../command"));
 
 // assertion helpers
-expect.extend(require("@lerna-test/pkg-matchers"));
+expect.extend(require("@0x-lerna-fork/pkg-matchers"));
 
 describe("AddCommand", () => {
   // we already have enough tests of BootstrapCommand

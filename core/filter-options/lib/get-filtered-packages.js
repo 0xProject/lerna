@@ -1,7 +1,7 @@
 "use strict";
 
-const collectUpdates = require("@lerna/collect-updates");
-const filterPackages = require("@lerna/filter-packages");
+const collectUpdates = require("@0x-lerna-fork/collect-updates");
+const filterPackages = require("@0x-lerna-fork/filter-packages");
 
 module.exports = getFilteredPackages;
 

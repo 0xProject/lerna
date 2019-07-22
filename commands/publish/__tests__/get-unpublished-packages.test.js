@@ -6,9 +6,9 @@ jest.mock("@evocateur/pacote/packument");
 const getPackument = require("@evocateur/pacote/packument");
 
 // helpers
-const PackageGraph = require("@lerna/package-graph");
-const { getPackages } = require("@lerna/project");
-const initFixture = require("@lerna-test/init-fixture")(__dirname);
+const PackageGraph = require("@0x-lerna-fork/package-graph");
+const { getPackages } = require("@0x-lerna-fork/project");
+const initFixture = require("@0x-lerna-fork/init-fixture")(__dirname);
 
 // file under test
 const getUnpublishedPackages = require("../lib/get-unpublished-packages");

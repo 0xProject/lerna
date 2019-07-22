@@ -1,4 +1,4 @@
-# `@lerna/command`
+# `@0x-lerna-fork/command`
 
 > Lerna's internal base class for commands
 

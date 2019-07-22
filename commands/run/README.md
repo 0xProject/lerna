@@ -1,4 +1,4 @@
-# `@lerna/run`
+# `@0x-lerna-fork/run`
 
 > Run an npm script in each package that contains that script
 
@@ -19,7 +19,7 @@ Run an [npm script](https://docs.npmjs.com/misc/scripts) in each package that co
 
 ## Options
 
-`lerna run` respects the `--concurrency`, `--scope`, and `--ignore` flags (see [Filter Flags](https://www.npmjs.com/package/@lerna/filter-options)).
+`lerna run` respects the `--concurrency`, `--scope`, and `--ignore` flags (see [Filter Flags](https://www.npmjs.com/package/@0x-lerna-fork/filter-options)).
 
 ```sh
 $ lerna run --scope my-component test

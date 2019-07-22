@@ -3,7 +3,7 @@
 const log = require("npmlog");
 const path = require("path");
 const slash = require("slash");
-const childProcess = require("@lerna/child-process");
+const childProcess = require("@0x-lerna-fork/child-process");
 
 module.exports = gitAdd;
 
