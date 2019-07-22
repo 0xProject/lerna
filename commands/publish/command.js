@@ -82,6 +82,29 @@ exports.builder = yargs => {
       hidden: true,
       type: "boolean",
     },
+    "cd-versions": {
+      describe: `Supply multiple package semvers: ${cdVersionOptionString}`,
+      type: "string",
+      requiresArg: true,
+      coerce: choice => {
+        const errMsg =
+          "--cd-versions must contain a string of format: package-1@1.3.2,package-2@2.3.4,package@3.2.1";
+        if (choice.indexOf(",") === -1) {
+          throw new Error(errMsg);
+        }
+        const packages = choice.split(",");
+        for (const pkg of packages) {
+          if (pkg.indexOf("@") === -1) {
+            throw new Error(errMsg);
+          }
+          // TODO:
+          // Check that there is only 1 '@' sign
+          // Check that to the right of the '@' sign, there are proper semvers
+          // and to the left a valid package name
+        }
+        return choice;
+      },
+    },
     // y: {
     //   describe: "Skip all confirmation prompts.",
     //   alias: "yes",

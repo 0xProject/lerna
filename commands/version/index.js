@@ -149,7 +149,9 @@ class VersionCommand extends Command {
         isBehindUpstream(this.gitRemote, this.currentBranch, this.execOpts)
       ) {
         // eslint-disable-next-line max-len
-        const message = `Local branch '${this.currentBranch}' is behind remote upstream ${this.gitRemote}/${this.currentBranch}`;
+        const message = `Local branch '${this.currentBranch}' is behind remote upstream ${this.gitRemote}/${
+          this.currentBranch
+        }`;
 
         if (!this.options.ci) {
           // interrupt interactive execution
@@ -292,7 +294,7 @@ class VersionCommand extends Command {
 
   getVersionsForUpdates() {
     const independentVersions = this.project.isIndependent();
-    const { bump, conventionalCommits, preid } = this.options;
+    const { bump, conventionalCommits, preid, cdVersions } = this.options;
     const repoVersion = bump ? semver.clean(bump) : "";
     const increment = bump && !semver.valid(bump) ? bump : "";
 
@@ -307,7 +309,26 @@ class VersionCommand extends Command {
     // decide the predicate in the conditionals below
     let predicate;
 
-    if (repoVersion) {
+    if (cdVersions) {
+      const packagesWithVersions = cdVersions.split(",");
+      const pkgNameToVersion = new Map();
+      for (const packageWithVersion of packagesWithVersions) {
+        const parts = packageWithVersion.split("@");
+        const version = parts[parts.length - 1];
+        const pkgName = parts.slice(0, parts.length - 1).join("@");
+        pkgNameToVersion.set(pkgName, version);
+      }
+      // Check that all necessary versions were passed in
+      for (const { pkg } of this.updates) {
+        const versionIfExists = pkgNameToVersion.get(pkg.name);
+        if (versionIfExists === undefined) {
+          throw new Error(
+            `Specified --cdVersions flag without all updated package versions specified. Missing: ${pkg.name}`
+          );
+        }
+      }
+      return pkgNameToVersion;
+    } else if (repoVersion) {
       predicate = makeGlobalVersionPredicate(repoVersion);
     } else if (increment && independentVersions) {
       // compute potential prerelease ID for each independent update
