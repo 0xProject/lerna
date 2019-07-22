@@ -1,5 +1,9 @@
 {
-  "packages": ["commands/*", "core/*", "utils/*"],
+  "packages": [
+    "commands/*",
+    "core/*",
+    "utils/*"
+  ],
   "command": {
     "create": {
       "homepage": "https://github.com/0xproject/lerna",
@@ -11,6 +15,10 @@
       "message": "chore(release): %s"
     }
   },
-  "ignoreChanges": ["**/__fixtures__/**", "**/__tests__/**", "**/*.md"],
-  "version": "3.16.0"
+  "ignoreChanges": [
+    "**/__fixtures__/**",
+    "**/__tests__/**",
+    "**/*.md"
+  ],
+  "version": "3.16.1"
 }

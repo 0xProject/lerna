@@ -1,6 +1,6 @@
 {
   "name": "@0x-lerna-fork/import",
-  "version": "3.16.0",
+  "version": "3.16.1",
   "description": "Import a package into the monorepo with commit history",
   "keywords": [
     "lerna",

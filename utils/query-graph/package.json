@@ -1,6 +1,6 @@
 {
   "name": "@0x-lerna-fork/query-graph",
-  "version": "3.16.0",
+  "version": "3.16.1",
   "description": "An internal Lerna tool",
   "keywords": [
     "lerna",

@@ -1,6 +1,6 @@
 {
   "name": "@0x-lerna-fork/add",
-  "version": "3.16.0",
+  "version": "3.16.1",
   "description": "Add a dependency to matched packages",
   "keywords": [
     "lerna",
@@ -33,12 +33,12 @@
     "test": "echo \"Run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@evocateur/pacote": "^9.6.3",
     "@0x-lerna-fork/bootstrap": "file:../bootstrap",
     "@0x-lerna-fork/command": "file:../../core/command",
     "@0x-lerna-fork/filter-options": "file:../../core/filter-options",
     "@0x-lerna-fork/npm-conf": "file:../../utils/npm-conf",
     "@0x-lerna-fork/validation-error": "file:../../core/validation-error",
+    "@evocateur/pacote": "^9.6.3",
     "dedent": "^0.7.0",
     "npm-package-arg": "^6.1.0",
     "p-map": "^2.1.0",
