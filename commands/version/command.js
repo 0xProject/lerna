@@ -120,7 +120,7 @@ exports.builder = (yargs, composed) => {
       defaultDescription: "v",
     },
     "cd-versions": {
-      describe: `Supply multiple package semvers: ${cdVersionOptionString}`,
+      describe: `Supply multiple package semvers`,
       type: "string",
       requiresArg: true,
       coerce: choice => {
