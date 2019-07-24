@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.16.8](https://github.com/lerna/lerna/compare/v3.16.7...v3.16.8) (2019-07-24)
+
+**Note:** Version bump only for package @0x-lerna-fork/version
+
+
+
+
+
 ## [3.16.7](https://github.com/lerna/lerna/compare/v3.16.6...v3.16.7) (2019-07-22)
 
 **Note:** Version bump only for package @0x-lerna-fork/version
