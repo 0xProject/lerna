@@ -120,24 +120,12 @@ exports.builder = (yargs, composed) => {
       defaultDescription: "v",
     },
     "cd-versions": {
-      describe: `Supply multiple package semvers`,
+      describe: `Supply file to multiple package semvers`,
       type: "string",
       requiresArg: true,
       coerce: choice => {
-        const errMsg =
-          "--cd-versions must contain a string of format: package-1@1.3.2,package-2@2.3.4,package@3.2.1";
-        if (choice.indexOf(",") === -1) {
-          throw new Error(errMsg);
-        }
-        const packages = choice.split(",");
-        for (const pkg of packages) {
-          if (pkg.indexOf("@") === -1) {
-            throw new Error(errMsg);
-          }
-          // TODO:
-          // Check that there is only 1 '@' sign
-          // Check that to the right of the '@' sign, there are proper semvers
-          // and to the left a valid package name
+        if (choice.length === 0) {
+          throw new Error("cdVersions cannot be an empty string");
         }
         return choice;
       },

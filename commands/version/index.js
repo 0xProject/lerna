@@ -310,10 +310,11 @@ class VersionCommand extends Command {
     let predicate;
 
     if (cdVersions) {
-      const packagesWithVersions = cdVersions.split(",");
+      const contents = fs.readFileSync(cdVersions)
+      const packagesWithVersions = contents.toString().split(",");
       const pkgNameToVersion = new Map();
       for (const packageWithVersion of packagesWithVersions) {
-        const parts = packageWithVersion.split("@");
+        const parts = packageWithVersion.split("|");
         const version = parts[parts.length - 1];
         const pkgName = parts.slice(0, parts.length - 1).join("@");
         pkgNameToVersion.set(pkgName, version);
