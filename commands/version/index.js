@@ -1,5 +1,6 @@
 "use strict";
 
+const fs = require("fs");
 const os = require("os");
 const chalk = require("chalk");
 const dedent = require("dedent");
