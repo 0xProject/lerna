@@ -1,6 +1,6 @@
 {
   "name": "@0x-lerna-fork/lerna",
-  "version": "3.16.9",
+  "version": "3.16.10",
   "description": "A tool for managing JavaScript projects with multiple packages.",
   "keywords": [
     "lerna",
